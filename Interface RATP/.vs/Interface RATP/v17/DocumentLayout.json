@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form1.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Form1.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form1.cs",
-              "RelativeToolTip": "Interface RATP\\Form1.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T15:04:07.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form1.cs",
               "RelativeDocumentMoniker": "Interface RATP\\Form1.cs",
@@ -44,6 +47,69 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T14:20:15.396Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form1.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Form1.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form1.cs",
+              "RelativeToolTip": "Interface RATP\\Form1.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDAAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T15:04:07.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form2.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Form2.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form2.cs [Design]",
+              "RelativeToolTip": "Interface RATP\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:08:27.653Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form2.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Form2.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form2.cs",
+              "RelativeToolTip": "Interface RATP\\Form2.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAswD4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:41:58.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form3.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Form3.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form3.cs [Design]",
+              "RelativeToolTip": "Interface RATP\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:14:22.182Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form3.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Form3.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Form3.cs",
+              "RelativeToolTip": "Interface RATP\\Form3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T13:24:51.919Z",
+              "EditorCaption": ""
             }
           ]
         }
