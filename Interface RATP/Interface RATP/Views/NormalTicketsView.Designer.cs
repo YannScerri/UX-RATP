@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.pnlLanguage = new System.Windows.Forms.Panel();
+            this.btnBack = new System.Windows.Forms.Button();
             this.lblSpanish = new System.Windows.Forms.Label();
             this.lblItalian = new System.Windows.Forms.Label();
             this.lblGerman = new System.Windows.Forms.Label();
             this.lblEnglish = new System.Windows.Forms.Label();
             this.lblFrench = new System.Windows.Forms.Label();
-            this.btnBack = new System.Windows.Forms.Button();
             this.pnlNormalTickets = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.lblAdult = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.lblReduction = new System.Windows.Forms.Label();
             this.btnBuySpecial = new System.Windows.Forms.Button();
             this.btnPay = new System.Windows.Forms.Button();
@@ -68,6 +68,17 @@
             this.pnlLanguage.Size = new System.Drawing.Size(948, 78);
             this.pnlLanguage.TabIndex = 1;
             // 
+            // btnBack
+            // 
+            this.btnBack.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(21, 24);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(91, 31);
+            this.btnBack.TabIndex = 5;
+            this.btnBack.Text = "Retour";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // lblSpanish
             // 
             this.lblSpanish.AutoSize = true;
@@ -77,6 +88,7 @@
             this.lblSpanish.Size = new System.Drawing.Size(90, 27);
             this.lblSpanish.TabIndex = 4;
             this.lblSpanish.Text = "Español";
+            this.lblSpanish.Click += new System.EventHandler(this.lblSpanish_Click);
             // 
             // lblItalian
             // 
@@ -97,6 +109,7 @@
             this.lblGerman.Size = new System.Drawing.Size(93, 27);
             this.lblGerman.TabIndex = 2;
             this.lblGerman.Text = "Deutsch";
+            this.lblGerman.Click += new System.EventHandler(this.lblGerman_Click);
             // 
             // lblEnglish
             // 
@@ -107,6 +120,7 @@
             this.lblEnglish.Size = new System.Drawing.Size(84, 27);
             this.lblEnglish.TabIndex = 1;
             this.lblEnglish.Text = "English\r\n";
+            this.lblEnglish.Click += new System.EventHandler(this.lblEnglish_Click);
             // 
             // lblFrench
             // 
@@ -117,17 +131,7 @@
             this.lblFrench.Size = new System.Drawing.Size(96, 27);
             this.lblFrench.TabIndex = 0;
             this.lblFrench.Text = "Français";
-            // 
-            // btnBack
-            // 
-            this.btnBack.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(21, 24);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(91, 31);
-            this.btnBack.TabIndex = 5;
-            this.btnBack.Text = "Retour";
-            this.btnBack.UseVisualStyleBackColor = true;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.lblFrench.Click += new System.EventHandler(this.lblFrench_Click);
             // 
             // pnlNormalTickets
             // 
@@ -138,15 +142,6 @@
             this.pnlNormalTickets.Size = new System.Drawing.Size(501, 150);
             this.pnlNormalTickets.TabIndex = 3;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.lblReduction);
-            this.panel1.Location = new System.Drawing.Point(1, 328);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(501, 158);
-            this.panel1.TabIndex = 4;
-            // 
             // lblAdult
             // 
             this.lblAdult.AutoSize = true;
@@ -156,6 +151,15 @@
             this.lblAdult.Size = new System.Drawing.Size(120, 27);
             this.lblAdult.TabIndex = 0;
             this.lblAdult.Text = "Adulte - 5€";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.lblReduction);
+            this.panel1.Location = new System.Drawing.Point(1, 328);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(501, 158);
+            this.panel1.TabIndex = 4;
             // 
             // lblReduction
             // 

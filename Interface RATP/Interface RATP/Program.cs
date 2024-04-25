@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Interface_RATP.Controllers;
+using Interface_RATP.Models;
+//using Interface_RATP.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,9 +17,21 @@ namespace Interface_RATP
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu());
+            
+            //création des vues
+            MenuView view1 = new MenuView();
+            NormalTickets view2 = new NormalTickets();
+
+            //création du modèle
+            RatpModel model = new RatpModel();
+            //création du contrôleur
+            RatpController controller = new RatpController(view1, model);
+
+            Application.Run(view1);
+
         }
     }
 }
