@@ -13,7 +13,7 @@ namespace Interface_RATP
         public Lang _currentLanguage;
         private ResourceManager _resource;
 
-        public void UpdateLanguage()
+        public ResourceManager UpdateLanguage()
         {
             switch (_currentLanguage)
             {
@@ -24,6 +24,8 @@ namespace Interface_RATP
                     _resource = new ResourceManager(typeof(Ressources.EN));
                     break;
             }
+
+            return _resource;
         }
     }
 }

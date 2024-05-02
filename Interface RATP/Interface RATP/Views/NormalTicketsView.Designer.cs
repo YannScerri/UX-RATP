@@ -1,6 +1,6 @@
 ﻿namespace Interface_RATP
 {
-    partial class NormalTickets
+    partial class NormalTicketsView
     {
         /// <summary>
         /// Required designer variable.
@@ -181,6 +181,7 @@
             this.btnBuySpecial.TabIndex = 5;
             this.btnBuySpecial.Text = "Acheter un billet spécial";
             this.btnBuySpecial.UseVisualStyleBackColor = true;
+            this.btnBuySpecial.Click += new System.EventHandler(this.btnBuySpecial_Click);
             // 
             // btnPay
             // 
@@ -269,7 +270,7 @@
             this.lblCurrentPriceInt.TabIndex = 14;
             this.lblCurrentPriceInt.Text = "0";
             // 
-            // NormalTickets
+            // NormalTicketsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -289,7 +290,8 @@
             this.Controls.Add(this.pnlNormalTickets);
             this.Controls.Add(this.pnlLanguage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "NormalTickets";
+            this.Name = "NormalTicketsView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Billets normaux";
             this.pnlLanguage.ResumeLayout(false);
             this.pnlLanguage.PerformLayout();

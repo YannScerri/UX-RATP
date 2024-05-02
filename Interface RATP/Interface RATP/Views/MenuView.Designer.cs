@@ -252,6 +252,7 @@
             this.Controls.Add(this.pnlLanguage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MenuView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu ";
             this.pnlLanguage.ResumeLayout(false);
             this.pnlLanguage.PerformLayout();

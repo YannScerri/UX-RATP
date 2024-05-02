@@ -23,12 +23,13 @@ namespace Interface_RATP
             
             //création des vues
             MenuView view1 = new MenuView();
-            NormalTickets view2 = new NormalTickets();
+            NormalTicketsView view2 = new NormalTicketsView();
+            SpecialTicketsView view3 = new SpecialTicketsView();   
 
             //création du modèle
             RatpModel model = new RatpModel();
             //création du contrôleur
-            RatpController controller = new RatpController(view1, model);
+            RatpController controller = new RatpController(view1,view2,view3, model);
 
             Application.Run(view1);
 

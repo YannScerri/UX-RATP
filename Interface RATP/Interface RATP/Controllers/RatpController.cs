@@ -10,16 +10,22 @@ namespace Interface_RATP.Controllers
 {
     public class RatpController
     {
-        private MenuView view1;
-        private RatpModel model;
+        private MenuView _view1;
+        private NormalTicketsView _view2;
+        private SpecialTicketsView _view3;
+        private RatpModel _model;
 
-        public RatpController(MenuView _view1, RatpModel _model)
+        public RatpController(MenuView view1, NormalTicketsView view2 , SpecialTicketsView view3 ,RatpModel model)
         {
-            view1 = _view1;
-            model = _model;
+            this._view1 = view1;
+            this._view2 = view2;
+            this._view3 = view3;    
+            this._model = model;
 
-            view1.Controller = this;
-            model.Controller = this;
+            this._view1.Controller = this;
+            this._view2.Controller = this;
+            this._view3.Controller = this;
+            this._model.Controller = this;
         }
     }
 }

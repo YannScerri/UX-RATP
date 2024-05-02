@@ -20,22 +20,22 @@ namespace Interface_RATP
 
 
 
-        string boxHelp1Text = "Les billets normaux comportent les options : Adulte et prix réduit";
-        string boxHelp2Text = "Les billets spéciaux comportent les options : billet DisneyLand, Passe visite 1-3-5 jours et billet aéroport (tous ces billets sont disponibles au prix adulte ou réduit.";
-        string boxHelp1Caption = "Billets normaux";
-        string boxHelp2Caption = "Billets spéciaux";
+        //string boxHelp1Text = "Les billets normaux comportent les options : Adulte et prix réduit";
+        //string boxHelp2Text = "Les billets spéciaux comportent les options : billet DisneyLand, Passe visite 1-3-5 jours et billet aéroport (tous ces billets sont disponibles au prix adulte ou réduit.";
+        //string boxHelp1Caption = "Billets normaux";
+        //string boxHelp2Caption = "Billets spéciaux";
 
 
 
 
         public RatpController Controller { get; set; }
-        NormalTickets normalTickets;
-        SpecialTickets specialTickets;
+        NormalTicketsView normalTickets;
+        SpecialTicketsView specialTickets;
         public MenuView()
         {
             InitializeComponent();
-            normalTickets = new NormalTickets(this);
-            specialTickets = new SpecialTickets(this);
+            normalTickets = new NormalTicketsView(this,specialTickets);
+            specialTickets = new SpecialTicketsView(this);
         }
 
 
@@ -53,14 +53,14 @@ namespace Interface_RATP
 
         private void lblNormalTickets_Click(object sender, EventArgs e)
         {
-            NormalTickets normalTickets = new NormalTickets(this);
+            NormalTicketsView normalTickets = new NormalTicketsView(this, specialTickets);
             normalTickets.Show();
             this.Hide();
         }
 
         private void lblSpecialTickets_Click(object sender, EventArgs e)
         {
-            SpecialTickets specialTickets = new SpecialTickets(this);
+            SpecialTicketsView specialTickets = new SpecialTicketsView(this);
             specialTickets.Show();
             this.Hide();
         }
@@ -78,7 +78,7 @@ namespace Interface_RATP
         {
             Language update = new Language();
             _currentLanguage = Lang.EN;
-            update.UpdateLanguage();
+            _resource = update.UpdateLanguage();
             UpdateText();
         }
 
@@ -105,6 +105,7 @@ namespace Interface_RATP
                 {
                     c.Text = _resource.GetString(c.Name);
                 }
+                
             }
         }
         

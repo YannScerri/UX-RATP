@@ -11,18 +11,20 @@ using System.Windows.Forms;
 
 namespace Interface_RATP
 {
-    public partial class NormalTickets : Form
+    public partial class NormalTicketsView : Form
     {   public RatpController Controller { get; set; }
         MenuView _menu;
+        SpecialTicketsView _specialTickets;
 
         private int currentPrice = 0;
-        public NormalTickets(MenuView menu)
+        public NormalTicketsView(MenuView menu, SpecialTicketsView specialTickets)
         {
             InitializeComponent();
             _menu = menu;
+            _specialTickets = specialTickets;
         }
 
-        public NormalTickets()
+        public NormalTicketsView()
         {
         }
 
@@ -71,6 +73,9 @@ namespace Interface_RATP
             int currentValue = int.Parse(lblNumberOfReducedTicket.Text);
             currentValue++;
             lblNumberOfReducedTicket.Text = currentValue.ToString();
+
+            currentPrice += 2;
+            lblCurrentPriceInt.Text = currentPrice.ToString();
         }
 
         private void btnRemoveReducedTicket_Click(object sender, EventArgs e)
@@ -80,6 +85,11 @@ namespace Interface_RATP
             {
                 currentValue--;
                 lblNumberOfReducedTicket.Text = currentValue.ToString();
+                if (currentPrice >= 2)
+                {
+                    currentPrice -= 2;
+                    lblCurrentPriceInt.Text = currentPrice.ToString();
+                }
             }
         }
 
@@ -100,6 +110,14 @@ namespace Interface_RATP
 
         private void lblGerman_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void btnBuySpecial_Click(object sender, EventArgs e)
+        {
+          
+            _specialTickets.Show();
+            this.Hide();
 
         }
     }
