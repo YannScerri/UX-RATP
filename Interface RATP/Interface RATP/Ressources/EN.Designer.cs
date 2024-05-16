@@ -70,7 +70,7 @@ namespace Interface_RATP.Ressources {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à SpecialTickets.
+        ///   Recherche une chaîne localisée semblable à Special Tickets.
         /// </summary>
         internal static string lblSpecialTickets {
             get {

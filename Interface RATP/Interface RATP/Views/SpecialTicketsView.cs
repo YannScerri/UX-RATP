@@ -13,23 +13,20 @@ namespace Interface_RATP
 {
     public partial class SpecialTicketsView : Form
     {   public RatpController Controller { get; set; }
-        MenuView _menu;
+       
         private int currentPrice = 0;
-
-        public SpecialTicketsView(MenuView menu)
-        {
-            InitializeComponent();
-            _menu = menu;
-        }
 
         public SpecialTicketsView()
         {
+            InitializeComponent();
+            
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            Controller.ShowMenu();
             this.Hide();
-            _menu.Show();
+            
         }
 
         private void btnAddDisneyAdultTicket_Click(object sender, EventArgs e)
@@ -292,6 +289,17 @@ namespace Interface_RATP
                     lblCurrentPriceInt.Text = currentPrice.ToString();
                 }
             }
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBuyNormal_Click(object sender, EventArgs e)
+        {
+            Controller.ShowNormalTickets();
+            this.Hide();
         }
     }
 }

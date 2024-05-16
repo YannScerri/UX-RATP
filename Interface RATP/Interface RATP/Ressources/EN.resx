@@ -121,7 +121,7 @@
     <value>Normal Tickets</value>
   </data>
   <data name="lblSpecialTickets" xml:space="preserve">
-    <value>SpecialTickets</value>
+    <value>Special Tickets</value>
   </data>
   <data name="lblWelcome" xml:space="preserve">
     <value>Welcome to the RATP</value>

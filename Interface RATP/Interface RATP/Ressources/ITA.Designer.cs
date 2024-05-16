@@ -59,5 +59,32 @@ namespace Interface_RATP.Ressources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Billeti normali.
+        /// </summary>
+        internal static string lblNormalTickets {
+            get {
+                return ResourceManager.GetString("lblNormalTickets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Billeti speciali.
+        /// </summary>
+        internal static string lblSpecialTickets {
+            get {
+                return ResourceManager.GetString("lblSpecialTickets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Benvenuto a RATP.
+        /// </summary>
+        internal static string lblWelcome {
+            get {
+                return ResourceManager.GetString("lblWelcome", resourceCulture);
+            }
+        }
     }
 }

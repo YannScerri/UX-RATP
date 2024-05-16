@@ -35,24 +35,22 @@
             this.lblGerman = new System.Windows.Forms.Label();
             this.lblEnglish = new System.Windows.Forms.Label();
             this.lblFrench = new System.Windows.Forms.Label();
-            this.pnlNormalTickets = new System.Windows.Forms.Panel();
             this.btnNormalHelp = new System.Windows.Forms.Button();
             this.picboxNormalTicket = new System.Windows.Forms.PictureBox();
             this.lblNormalTickets = new System.Windows.Forms.Label();
-            this.pnlSpecialTickets = new System.Windows.Forms.Panel();
-            this.btnSpecialHelp = new System.Windows.Forms.Button();
-            this.picBoxSpecialTicket = new System.Windows.Forms.PictureBox();
-            this.lblSpecialTickets = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblWelcome = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblSpecialTickets = new System.Windows.Forms.Label();
+            this.picBoxSpecialTicket = new System.Windows.Forms.PictureBox();
+            this.btnSpecialHelp = new System.Windows.Forms.Button();
             this.pnlLanguage.SuspendLayout();
-            this.pnlNormalTickets.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picboxNormalTicket)).BeginInit();
-            this.pnlSpecialTickets.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxSpecialTicket)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSpecialTicket)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlLanguage
@@ -123,21 +121,10 @@
             this.lblFrench.Text = "Français";
             this.lblFrench.Click += new System.EventHandler(this.lblFrench_Click);
             // 
-            // pnlNormalTickets
-            // 
-            this.pnlNormalTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlNormalTickets.Controls.Add(this.btnNormalHelp);
-            this.pnlNormalTickets.Controls.Add(this.picboxNormalTicket);
-            this.pnlNormalTickets.Controls.Add(this.lblNormalTickets);
-            this.pnlNormalTickets.Location = new System.Drawing.Point(91, 243);
-            this.pnlNormalTickets.Name = "pnlNormalTickets";
-            this.pnlNormalTickets.Size = new System.Drawing.Size(328, 376);
-            this.pnlNormalTickets.TabIndex = 2;
-            // 
             // btnNormalHelp
             // 
             this.btnNormalHelp.BackColor = System.Drawing.Color.Azure;
-            this.btnNormalHelp.Location = new System.Drawing.Point(120, 303);
+            this.btnNormalHelp.Location = new System.Drawing.Point(208, 546);
             this.btnNormalHelp.Name = "btnNormalHelp";
             this.btnNormalHelp.Size = new System.Drawing.Size(81, 45);
             this.btnNormalHelp.TabIndex = 2;
@@ -149,7 +136,7 @@
             // 
             this.picboxNormalTicket.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picboxNormalTicket.BackgroundImage")));
             this.picboxNormalTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picboxNormalTicket.Location = new System.Drawing.Point(39, 100);
+            this.picboxNormalTicket.Location = new System.Drawing.Point(122, 343);
             this.picboxNormalTicket.Name = "picboxNormalTicket";
             this.picboxNormalTicket.Size = new System.Drawing.Size(262, 129);
             this.picboxNormalTicket.TabIndex = 1;
@@ -158,56 +145,14 @@
             // lblNormalTickets
             // 
             this.lblNormalTickets.AutoSize = true;
+            this.lblNormalTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblNormalTickets.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNormalTickets.Location = new System.Drawing.Point(77, 38);
+            this.lblNormalTickets.Location = new System.Drawing.Point(165, 281);
             this.lblNormalTickets.Name = "lblNormalTickets";
             this.lblNormalTickets.Size = new System.Drawing.Size(177, 27);
             this.lblNormalTickets.TabIndex = 0;
             this.lblNormalTickets.Text = "Billets standards";
             this.lblNormalTickets.Click += new System.EventHandler(this.lblNormalTickets_Click);
-            // 
-            // pnlSpecialTickets
-            // 
-            this.pnlSpecialTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlSpecialTickets.Controls.Add(this.btnSpecialHelp);
-            this.pnlSpecialTickets.Controls.Add(this.picBoxSpecialTicket);
-            this.pnlSpecialTickets.Controls.Add(this.lblSpecialTickets);
-            this.pnlSpecialTickets.Location = new System.Drawing.Point(560, 243);
-            this.pnlSpecialTickets.Name = "pnlSpecialTickets";
-            this.pnlSpecialTickets.Size = new System.Drawing.Size(328, 376);
-            this.pnlSpecialTickets.TabIndex = 3;
-            // 
-            // btnSpecialHelp
-            // 
-            this.btnSpecialHelp.BackColor = System.Drawing.Color.Azure;
-            this.btnSpecialHelp.Location = new System.Drawing.Point(135, 303);
-            this.btnSpecialHelp.Name = "btnSpecialHelp";
-            this.btnSpecialHelp.Size = new System.Drawing.Size(81, 45);
-            this.btnSpecialHelp.TabIndex = 3;
-            this.btnSpecialHelp.Text = "?";
-            this.btnSpecialHelp.UseVisualStyleBackColor = false;
-            this.btnSpecialHelp.Click += new System.EventHandler(this.btnSpecialHelp_Click);
-            // 
-            // picBoxSpecialTicket
-            // 
-            this.picBoxSpecialTicket.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBoxSpecialTicket.BackgroundImage")));
-            this.picBoxSpecialTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picBoxSpecialTicket.Location = new System.Drawing.Point(38, 100);
-            this.picBoxSpecialTicket.Name = "picBoxSpecialTicket";
-            this.picBoxSpecialTicket.Size = new System.Drawing.Size(262, 129);
-            this.picBoxSpecialTicket.TabIndex = 2;
-            this.picBoxSpecialTicket.TabStop = false;
-            // 
-            // lblSpecialTickets
-            // 
-            this.lblSpecialTickets.AutoSize = true;
-            this.lblSpecialTickets.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSpecialTickets.Location = new System.Drawing.Point(90, 38);
-            this.lblSpecialTickets.Name = "lblSpecialTickets";
-            this.lblSpecialTickets.Size = new System.Drawing.Size(166, 27);
-            this.lblSpecialTickets.TabIndex = 1;
-            this.lblSpecialTickets.Text = "Billets spéciaux";
-            this.lblSpecialTickets.Click += new System.EventHandler(this.lblSpecialTickets_Click);
             // 
             // pictureBox1
             // 
@@ -238,32 +183,83 @@
             this.lblWelcome.TabIndex = 7;
             this.lblWelcome.Text = "Bienvenue à la RATP";
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.Location = new System.Drawing.Point(91, 243);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(328, 376);
+            this.label1.TabIndex = 8;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Location = new System.Drawing.Point(560, 243);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(328, 376);
+            this.label2.TabIndex = 9;
+            // 
+            // lblSpecialTickets
+            // 
+            this.lblSpecialTickets.AutoSize = true;
+            this.lblSpecialTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblSpecialTickets.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSpecialTickets.Location = new System.Drawing.Point(652, 281);
+            this.lblSpecialTickets.Name = "lblSpecialTickets";
+            this.lblSpecialTickets.Size = new System.Drawing.Size(166, 27);
+            this.lblSpecialTickets.TabIndex = 1;
+            this.lblSpecialTickets.Text = "Billets spéciaux";
+            this.lblSpecialTickets.Click += new System.EventHandler(this.lblSpecialTickets_Click);
+            // 
+            // picBoxSpecialTicket
+            // 
+            this.picBoxSpecialTicket.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picBoxSpecialTicket.BackgroundImage")));
+            this.picBoxSpecialTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picBoxSpecialTicket.Location = new System.Drawing.Point(603, 343);
+            this.picBoxSpecialTicket.Name = "picBoxSpecialTicket";
+            this.picBoxSpecialTicket.Size = new System.Drawing.Size(262, 129);
+            this.picBoxSpecialTicket.TabIndex = 2;
+            this.picBoxSpecialTicket.TabStop = false;
+            // 
+            // btnSpecialHelp
+            // 
+            this.btnSpecialHelp.BackColor = System.Drawing.Color.Azure;
+            this.btnSpecialHelp.Location = new System.Drawing.Point(686, 546);
+            this.btnSpecialHelp.Name = "btnSpecialHelp";
+            this.btnSpecialHelp.Size = new System.Drawing.Size(81, 45);
+            this.btnSpecialHelp.TabIndex = 3;
+            this.btnSpecialHelp.Text = "?";
+            this.btnSpecialHelp.UseVisualStyleBackColor = false;
+            this.btnSpecialHelp.Click += new System.EventHandler(this.btnSpecialHelp_Click);
+            // 
             // MenuView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(947, 781);
+            this.Controls.Add(this.btnSpecialHelp);
+            this.Controls.Add(this.picBoxSpecialTicket);
+            this.Controls.Add(this.btnNormalHelp);
+            this.Controls.Add(this.lblSpecialTickets);
+            this.Controls.Add(this.lblNormalTickets);
+            this.Controls.Add(this.picboxNormalTicket);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pnlSpecialTickets);
-            this.Controls.Add(this.pnlNormalTickets);
             this.Controls.Add(this.pnlLanguage);
+            this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MenuView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu ";
             this.pnlLanguage.ResumeLayout(false);
             this.pnlLanguage.PerformLayout();
-            this.pnlNormalTickets.ResumeLayout(false);
-            this.pnlNormalTickets.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picboxNormalTicket)).EndInit();
-            this.pnlSpecialTickets.ResumeLayout(false);
-            this.pnlSpecialTickets.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxSpecialTicket)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSpecialTicket)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,17 +273,17 @@
         private System.Windows.Forms.Label lblEnglish;
         private System.Windows.Forms.Label lblFrench;
         private System.Windows.Forms.Label lblSpanish;
-        private System.Windows.Forms.Panel pnlNormalTickets;
-        private System.Windows.Forms.Panel pnlSpecialTickets;
         private System.Windows.Forms.PictureBox picboxNormalTicket;
         private System.Windows.Forms.Label lblNormalTickets;
-        private System.Windows.Forms.Label lblSpecialTickets;
         private System.Windows.Forms.Button btnNormalHelp;
-        private System.Windows.Forms.PictureBox picBoxSpecialTicket;
-        private System.Windows.Forms.Button btnSpecialHelp;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblSpecialTickets;
+        private System.Windows.Forms.PictureBox picBoxSpecialTicket;
+        private System.Windows.Forms.Button btnSpecialHelp;
     }
 }
 

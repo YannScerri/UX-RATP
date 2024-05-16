@@ -192,6 +192,7 @@
             this.btnPay.TabIndex = 6;
             this.btnPay.Text = "Payer";
             this.btnPay.UseVisualStyleBackColor = true;
+            this.btnPay.Click += new System.EventHandler(this.btnPay_Click);
             // 
             // btnAddAdultTicket
             // 
@@ -211,6 +212,7 @@
             this.lblNumberOfAdultTicket.Size = new System.Drawing.Size(13, 13);
             this.lblNumberOfAdultTicket.TabIndex = 8;
             this.lblNumberOfAdultTicket.Text = "0";
+            this.lblNumberOfAdultTicket.Click += new System.EventHandler(this.lblNumberOfAdultTicket_Click);
             // 
             // btnRemoveAdultTicket
             // 

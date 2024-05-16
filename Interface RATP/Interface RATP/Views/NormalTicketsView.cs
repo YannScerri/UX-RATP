@@ -1,4 +1,5 @@
 ﻿using Interface_RATP.Controllers;
+using Interface_RATP.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,25 +14,19 @@ namespace Interface_RATP
 {
     public partial class NormalTicketsView : Form
     {   public RatpController Controller { get; set; }
-        MenuView _menu;
-        SpecialTicketsView _specialTickets;
+       
 
         private int currentPrice = 0;
-        public NormalTicketsView(MenuView menu, SpecialTicketsView specialTickets)
-        {
-            InitializeComponent();
-            _menu = menu;
-            _specialTickets = specialTickets;
-        }
-
         public NormalTicketsView()
         {
+            InitializeComponent();
+            
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Hide();
-            _menu.Show();
+            Controller.ShowMenu();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -48,6 +43,8 @@ namespace Interface_RATP
             // Augmente le prix actuel de 5
             currentPrice += 5;
             lblCurrentPriceInt.Text = currentPrice.ToString();
+
+            Controller.TotalPrice = currentPrice;
         }
 
         private void btnRemoveAdultTicket_Click(object sender, EventArgs e)
@@ -64,8 +61,13 @@ namespace Interface_RATP
                     currentPrice -= 5;
                     lblCurrentPriceInt.Text = currentPrice.ToString();
                 }
+
+                Controller.TotalPrice = currentPrice;
             }
-            
+
+           
+
+
         }
 
         private void btnAddReducedTicket_Click(object sender, EventArgs e)
@@ -76,6 +78,9 @@ namespace Interface_RATP
 
             currentPrice += 2;
             lblCurrentPriceInt.Text = currentPrice.ToString();
+
+            Controller.TotalPrice = currentPrice;
+
         }
 
         private void btnRemoveReducedTicket_Click(object sender, EventArgs e)
@@ -90,6 +95,8 @@ namespace Interface_RATP
                     currentPrice -= 2;
                     lblCurrentPriceInt.Text = currentPrice.ToString();
                 }
+
+                Controller.TotalPrice = currentPrice;
             }
         }
 
@@ -115,9 +122,22 @@ namespace Interface_RATP
 
         private void btnBuySpecial_Click(object sender, EventArgs e)
         {
-          
-            _specialTickets.Show();
+
+            Controller.ShowSpecialTickets();
             this.Hide();
+
+        }
+
+        private void btnPay_Click(object sender, EventArgs e)
+        {   
+            
+            Controller.ShowPayment();
+            this.Hide();
+            
+        }
+
+        private void lblNumberOfAdultTicket_Click(object sender, EventArgs e)
+        {
 
         }
     }

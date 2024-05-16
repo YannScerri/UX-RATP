@@ -15,3 +15,4 @@ D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.
 D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Ressources.SPA.resources
 D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.NormalTicketsView.resources
 D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.SpecialTicketsView.resources
+D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Views.PaymentView.resources

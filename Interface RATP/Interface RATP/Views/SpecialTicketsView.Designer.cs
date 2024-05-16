@@ -43,42 +43,44 @@
             this.btnAddDisneyAdultTicket = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblReduction = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
             this.pnlDisneyTickets = new System.Windows.Forms.Panel();
             this.lblAdult = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.lblDisneyAdult = new System.Windows.Forms.Label();
             this.lblDisneyChild = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.btnRemoveParis1ChildTicket = new System.Windows.Forms.Button();
             this.lblNumberOfParis1ChildTicket = new System.Windows.Forms.Label();
             this.btnAddParis1ChildTicket = new System.Windows.Forms.Button();
             this.btnRemoveParis1AdultTicket = new System.Windows.Forms.Button();
             this.lblNumberOfParis1AdultTicket = new System.Windows.Forms.Label();
             this.btnAddParis1Adult = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.btnRemoveParis3ChildTicket = new System.Windows.Forms.Button();
             this.lblNumberOfParis3ChildTicket = new System.Windows.Forms.Label();
             this.btnAddParis3ChildTicket = new System.Windows.Forms.Button();
             this.btnRemoveParis3AdultTicket = new System.Windows.Forms.Button();
             this.lblNumberOfParis3AdultTicket = new System.Windows.Forms.Label();
             this.btnAddParis3AdultTicket = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.btnRemoveParis5ChildTicket = new System.Windows.Forms.Button();
             this.lblNumberOfParis5ChildTicket = new System.Windows.Forms.Label();
             this.btnAddParisChildTicket = new System.Windows.Forms.Button();
             this.btnRemoveParis5AdultTicket = new System.Windows.Forms.Button();
             this.lblNumberOfParis5AdultTicket = new System.Windows.Forms.Label();
             this.btnAddParis5AdultTicket = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.btnRemoveAirportChildTicket = new System.Windows.Forms.Button();
             this.lblNumberOfAirportChildTicket = new System.Windows.Forms.Label();
             this.btnAddAirportChildTicket = new System.Windows.Forms.Button();
@@ -87,16 +89,8 @@
             this.btnAddAirportAdultTicket = new System.Windows.Forms.Button();
             this.lblCurrentPriceInt = new System.Windows.Forms.Label();
             this.lblCurrentPriceText = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
+            this.btnPay = new System.Windows.Forms.Button();
+            this.btnBuyNormal = new System.Windows.Forms.Button();
             this.pnlLanguage.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlDisneyTickets.SuspendLayout();
@@ -121,6 +115,7 @@
             // 
             // btnBack
             // 
+            this.btnBack.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBack.Location = new System.Drawing.Point(26, 25);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(91, 31);
@@ -163,7 +158,7 @@
             // 
             this.lblEnglish.AutoSize = true;
             this.lblEnglish.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEnglish.Location = new System.Drawing.Point(302, 23);
+            this.lblEnglish.Location = new System.Drawing.Point(320, 24);
             this.lblEnglish.Name = "lblEnglish";
             this.lblEnglish.Size = new System.Drawing.Size(84, 27);
             this.lblEnglish.TabIndex = 1;
@@ -181,7 +176,7 @@
             // 
             // btnRemoveDisneyChildTicket
             // 
-            this.btnRemoveDisneyChildTicket.Location = new System.Drawing.Point(518, 246);
+            this.btnRemoveDisneyChildTicket.Location = new System.Drawing.Point(749, 158);
             this.btnRemoveDisneyChildTicket.Name = "btnRemoveDisneyChildTicket";
             this.btnRemoveDisneyChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveDisneyChildTicket.TabIndex = 20;
@@ -191,16 +186,17 @@
             // 
             // lblNumberOfDisneyChildTicket
             // 
-            this.lblNumberOfDisneyChildTicket.AutoSize = true;
-            this.lblNumberOfDisneyChildTicket.Location = new System.Drawing.Point(600, 256);
+            this.lblNumberOfDisneyChildTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfDisneyChildTicket.Location = new System.Drawing.Point(751, 158);
             this.lblNumberOfDisneyChildTicket.Name = "lblNumberOfDisneyChildTicket";
-            this.lblNumberOfDisneyChildTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfDisneyChildTicket.Size = new System.Drawing.Size(169, 32);
             this.lblNumberOfDisneyChildTicket.TabIndex = 19;
             this.lblNumberOfDisneyChildTicket.Text = "0";
+            this.lblNumberOfDisneyChildTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddDisneyChildTicket
             // 
-            this.btnAddDisneyChildTicket.Location = new System.Drawing.Point(643, 246);
+            this.btnAddDisneyChildTicket.Location = new System.Drawing.Point(874, 158);
             this.btnAddDisneyChildTicket.Name = "btnAddDisneyChildTicket";
             this.btnAddDisneyChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnAddDisneyChildTicket.TabIndex = 18;
@@ -210,6 +206,8 @@
             // 
             // btnRemoveDisneyAdultTicket
             // 
+            this.btnRemoveDisneyAdultTicket.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnRemoveDisneyAdultTicket.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btnRemoveDisneyAdultTicket.Location = new System.Drawing.Point(518, 158);
             this.btnRemoveDisneyAdultTicket.Name = "btnRemoveDisneyAdultTicket";
             this.btnRemoveDisneyAdultTicket.Size = new System.Drawing.Size(47, 32);
@@ -220,12 +218,13 @@
             // 
             // lblNumberOfDisneyAdultTicket
             // 
-            this.lblNumberOfDisneyAdultTicket.AutoSize = true;
-            this.lblNumberOfDisneyAdultTicket.Location = new System.Drawing.Point(600, 168);
+            this.lblNumberOfDisneyAdultTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfDisneyAdultTicket.Location = new System.Drawing.Point(519, 158);
             this.lblNumberOfDisneyAdultTicket.Name = "lblNumberOfDisneyAdultTicket";
-            this.lblNumberOfDisneyAdultTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfDisneyAdultTicket.Size = new System.Drawing.Size(171, 32);
             this.lblNumberOfDisneyAdultTicket.TabIndex = 16;
             this.lblNumberOfDisneyAdultTicket.Text = "0";
+            this.lblNumberOfDisneyAdultTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddDisneyAdultTicket
             // 
@@ -240,71 +239,126 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.label19);
-            this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.lblReduction);
-            this.panel1.Location = new System.Drawing.Point(1, 296);
+            this.panel1.Location = new System.Drawing.Point(1, 233);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(501, 158);
+            this.panel1.Size = new System.Drawing.Size(500, 90);
             this.panel1.TabIndex = 14;
             // 
             // lblReduction
             // 
             this.lblReduction.AutoSize = true;
             this.lblReduction.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReduction.Location = new System.Drawing.Point(156, 66);
+            this.lblReduction.Location = new System.Drawing.Point(156, 38);
             this.lblReduction.Name = "lblReduction";
             this.lblReduction.Size = new System.Drawing.Size(192, 27);
             this.lblReduction.TabIndex = 1;
             this.lblReduction.Text = "Passe visite 1 jour";
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(583, 238);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(45, 25);
+            this.label19.TabIndex = 9;
+            this.label19.Text = "15€";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(818, 238);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(45, 25);
+            this.label18.TabIndex = 8;
+            this.label18.Text = "10€";
+            // 
             // pnlDisneyTickets
             // 
             this.pnlDisneyTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlDisneyTickets.Controls.Add(this.label20);
-            this.pnlDisneyTickets.Controls.Add(this.label21);
             this.pnlDisneyTickets.Controls.Add(this.lblAdult);
             this.pnlDisneyTickets.Location = new System.Drawing.Point(1, 128);
             this.pnlDisneyTickets.Name = "pnlDisneyTickets";
-            this.pnlDisneyTickets.Size = new System.Drawing.Size(501, 150);
+            this.pnlDisneyTickets.Size = new System.Drawing.Size(500, 90);
             this.pnlDisneyTickets.TabIndex = 13;
             // 
             // lblAdult
             // 
             this.lblAdult.AutoSize = true;
             this.lblAdult.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdult.Location = new System.Drawing.Point(194, 64);
+            this.lblAdult.Location = new System.Drawing.Point(194, 35);
             this.lblAdult.Name = "lblAdult";
             this.lblAdult.Size = new System.Drawing.Size(121, 27);
             this.lblAdult.TabIndex = 0;
             this.lblAdult.Text = "Disneyland";
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(818, 128);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(45, 25);
+            this.label20.TabIndex = 10;
+            this.label20.Text = "10€";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(583, 128);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(45, 25);
+            this.label21.TabIndex = 11;
+            this.label21.Text = "20€";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Controls.Add(this.label15);
-            this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(1, 471);
+            this.panel2.Location = new System.Drawing.Point(2, 338);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(501, 158);
+            this.panel2.Size = new System.Drawing.Size(500, 90);
             this.panel2.TabIndex = 15;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(156, 66);
+            this.label1.Location = new System.Drawing.Point(155, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(203, 27);
             this.label1.TabIndex = 1;
             this.label1.Text = "Passe visite 3 jours";
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(819, 338);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(45, 25);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "25€";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(584, 338);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(45, 25);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "30€";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(156, 66);
+            this.label2.Location = new System.Drawing.Point(145, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(203, 27);
             this.label2.TabIndex = 1;
@@ -313,78 +367,94 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel3.Controls.Add(this.label13);
-            this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(1, 648);
+            this.panel3.Location = new System.Drawing.Point(2, 443);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(501, 158);
+            this.panel3.Size = new System.Drawing.Size(500, 90);
             this.panel3.TabIndex = 16;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(818, 443);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(45, 25);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "55€";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(583, 443);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(45, 25);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "60€";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel4.Controls.Add(this.label17);
-            this.panel4.Controls.Add(this.label16);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(1, 856);
+            this.panel4.Location = new System.Drawing.Point(1, 548);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(501, 158);
+            this.panel4.Size = new System.Drawing.Size(500, 90);
             this.panel4.TabIndex = 17;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(194, 70);
+            this.label3.Location = new System.Drawing.Point(206, 32);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(97, 27);
             this.label3.TabIndex = 1;
             this.label3.Text = "Aéroport";
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(818, 542);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(34, 25);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "5€";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(583, 542);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(45, 25);
+            this.label16.TabIndex = 6;
+            this.label16.Text = "10€";
+            // 
             // lblDisneyAdult
             // 
             this.lblDisneyAdult.AutoSize = true;
-            this.lblDisneyAdult.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDisneyAdult.Location = new System.Drawing.Point(585, 128);
+            this.lblDisneyAdult.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDisneyAdult.Location = new System.Drawing.Point(566, 91);
             this.lblDisneyAdult.Name = "lblDisneyAdult";
-            this.lblDisneyAdult.Size = new System.Drawing.Size(47, 17);
+            this.lblDisneyAdult.Size = new System.Drawing.Size(78, 27);
             this.lblDisneyAdult.TabIndex = 21;
             this.lblDisneyAdult.Text = "Adulte";
             // 
             // lblDisneyChild
             // 
             this.lblDisneyChild.AutoSize = true;
-            this.lblDisneyChild.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDisneyChild.Location = new System.Drawing.Point(585, 221);
+            this.lblDisneyChild.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDisneyChild.Location = new System.Drawing.Point(805, 91);
             this.lblDisneyChild.Name = "lblDisneyChild";
-            this.lblDisneyChild.Size = new System.Drawing.Size(48, 17);
+            this.lblDisneyChild.Size = new System.Drawing.Size(80, 27);
             this.lblDisneyChild.TabIndex = 22;
             this.lblDisneyChild.Text = "Enfant";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(585, 397);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 17);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "Enfant";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(585, 304);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(47, 17);
-            this.label7.TabIndex = 29;
-            this.label7.Text = "Adulte";
-            // 
             // btnRemoveParis1ChildTicket
             // 
-            this.btnRemoveParis1ChildTicket.Location = new System.Drawing.Point(518, 422);
+            this.btnRemoveParis1ChildTicket.Location = new System.Drawing.Point(749, 271);
             this.btnRemoveParis1ChildTicket.Name = "btnRemoveParis1ChildTicket";
             this.btnRemoveParis1ChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveParis1ChildTicket.TabIndex = 28;
@@ -394,16 +464,17 @@
             // 
             // lblNumberOfParis1ChildTicket
             // 
-            this.lblNumberOfParis1ChildTicket.AutoSize = true;
-            this.lblNumberOfParis1ChildTicket.Location = new System.Drawing.Point(600, 432);
+            this.lblNumberOfParis1ChildTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfParis1ChildTicket.Location = new System.Drawing.Point(751, 271);
             this.lblNumberOfParis1ChildTicket.Name = "lblNumberOfParis1ChildTicket";
-            this.lblNumberOfParis1ChildTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfParis1ChildTicket.Size = new System.Drawing.Size(169, 32);
             this.lblNumberOfParis1ChildTicket.TabIndex = 27;
             this.lblNumberOfParis1ChildTicket.Text = "0";
+            this.lblNumberOfParis1ChildTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddParis1ChildTicket
             // 
-            this.btnAddParis1ChildTicket.Location = new System.Drawing.Point(643, 422);
+            this.btnAddParis1ChildTicket.Location = new System.Drawing.Point(874, 271);
             this.btnAddParis1ChildTicket.Name = "btnAddParis1ChildTicket";
             this.btnAddParis1ChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnAddParis1ChildTicket.TabIndex = 26;
@@ -413,7 +484,7 @@
             // 
             // btnRemoveParis1AdultTicket
             // 
-            this.btnRemoveParis1AdultTicket.Location = new System.Drawing.Point(518, 334);
+            this.btnRemoveParis1AdultTicket.Location = new System.Drawing.Point(518, 271);
             this.btnRemoveParis1AdultTicket.Name = "btnRemoveParis1AdultTicket";
             this.btnRemoveParis1AdultTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveParis1AdultTicket.TabIndex = 25;
@@ -423,16 +494,17 @@
             // 
             // lblNumberOfParis1AdultTicket
             // 
-            this.lblNumberOfParis1AdultTicket.AutoSize = true;
-            this.lblNumberOfParis1AdultTicket.Location = new System.Drawing.Point(600, 344);
+            this.lblNumberOfParis1AdultTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfParis1AdultTicket.Location = new System.Drawing.Point(520, 271);
             this.lblNumberOfParis1AdultTicket.Name = "lblNumberOfParis1AdultTicket";
-            this.lblNumberOfParis1AdultTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfParis1AdultTicket.Size = new System.Drawing.Size(171, 32);
             this.lblNumberOfParis1AdultTicket.TabIndex = 24;
             this.lblNumberOfParis1AdultTicket.Text = "0";
+            this.lblNumberOfParis1AdultTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddParis1Adult
             // 
-            this.btnAddParis1Adult.Location = new System.Drawing.Point(643, 334);
+            this.btnAddParis1Adult.Location = new System.Drawing.Point(643, 271);
             this.btnAddParis1Adult.Name = "btnAddParis1Adult";
             this.btnAddParis1Adult.Size = new System.Drawing.Size(47, 32);
             this.btnAddParis1Adult.TabIndex = 23;
@@ -440,29 +512,9 @@
             this.btnAddParis1Adult.UseVisualStyleBackColor = true;
             this.btnAddParis1Adult.Click += new System.EventHandler(this.btnAddParis1Adult_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(586, 568);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 17);
-            this.label4.TabIndex = 38;
-            this.label4.Text = "Enfant";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(586, 475);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 17);
-            this.label5.TabIndex = 37;
-            this.label5.Text = "Adulte";
-            // 
             // btnRemoveParis3ChildTicket
             // 
-            this.btnRemoveParis3ChildTicket.Location = new System.Drawing.Point(519, 593);
+            this.btnRemoveParis3ChildTicket.Location = new System.Drawing.Point(750, 372);
             this.btnRemoveParis3ChildTicket.Name = "btnRemoveParis3ChildTicket";
             this.btnRemoveParis3ChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveParis3ChildTicket.TabIndex = 36;
@@ -472,16 +524,17 @@
             // 
             // lblNumberOfParis3ChildTicket
             // 
-            this.lblNumberOfParis3ChildTicket.AutoSize = true;
-            this.lblNumberOfParis3ChildTicket.Location = new System.Drawing.Point(601, 603);
+            this.lblNumberOfParis3ChildTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfParis3ChildTicket.Location = new System.Drawing.Point(752, 372);
             this.lblNumberOfParis3ChildTicket.Name = "lblNumberOfParis3ChildTicket";
-            this.lblNumberOfParis3ChildTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfParis3ChildTicket.Size = new System.Drawing.Size(169, 32);
             this.lblNumberOfParis3ChildTicket.TabIndex = 35;
             this.lblNumberOfParis3ChildTicket.Text = "0";
+            this.lblNumberOfParis3ChildTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddParis3ChildTicket
             // 
-            this.btnAddParis3ChildTicket.Location = new System.Drawing.Point(644, 593);
+            this.btnAddParis3ChildTicket.Location = new System.Drawing.Point(875, 372);
             this.btnAddParis3ChildTicket.Name = "btnAddParis3ChildTicket";
             this.btnAddParis3ChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnAddParis3ChildTicket.TabIndex = 34;
@@ -491,7 +544,7 @@
             // 
             // btnRemoveParis3AdultTicket
             // 
-            this.btnRemoveParis3AdultTicket.Location = new System.Drawing.Point(519, 505);
+            this.btnRemoveParis3AdultTicket.Location = new System.Drawing.Point(520, 372);
             this.btnRemoveParis3AdultTicket.Name = "btnRemoveParis3AdultTicket";
             this.btnRemoveParis3AdultTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveParis3AdultTicket.TabIndex = 33;
@@ -501,16 +554,17 @@
             // 
             // lblNumberOfParis3AdultTicket
             // 
-            this.lblNumberOfParis3AdultTicket.AutoSize = true;
-            this.lblNumberOfParis3AdultTicket.Location = new System.Drawing.Point(601, 515);
+            this.lblNumberOfParis3AdultTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfParis3AdultTicket.Location = new System.Drawing.Point(520, 372);
             this.lblNumberOfParis3AdultTicket.Name = "lblNumberOfParis3AdultTicket";
-            this.lblNumberOfParis3AdultTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfParis3AdultTicket.Size = new System.Drawing.Size(171, 32);
             this.lblNumberOfParis3AdultTicket.TabIndex = 32;
             this.lblNumberOfParis3AdultTicket.Text = "0";
+            this.lblNumberOfParis3AdultTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddParis3AdultTicket
             // 
-            this.btnAddParis3AdultTicket.Location = new System.Drawing.Point(644, 505);
+            this.btnAddParis3AdultTicket.Location = new System.Drawing.Point(645, 372);
             this.btnAddParis3AdultTicket.Name = "btnAddParis3AdultTicket";
             this.btnAddParis3AdultTicket.Size = new System.Drawing.Size(47, 32);
             this.btnAddParis3AdultTicket.TabIndex = 31;
@@ -518,29 +572,9 @@
             this.btnAddParis3AdultTicket.UseVisualStyleBackColor = true;
             this.btnAddParis3AdultTicket.Click += new System.EventHandler(this.btnAddParis3AdultTicket_Click);
             // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(585, 746);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(48, 17);
-            this.label8.TabIndex = 46;
-            this.label8.Text = "Enfant";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(585, 653);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 17);
-            this.label9.TabIndex = 45;
-            this.label9.Text = "Adulte";
-            // 
             // btnRemoveParis5ChildTicket
             // 
-            this.btnRemoveParis5ChildTicket.Location = new System.Drawing.Point(518, 771);
+            this.btnRemoveParis5ChildTicket.Location = new System.Drawing.Point(750, 478);
             this.btnRemoveParis5ChildTicket.Name = "btnRemoveParis5ChildTicket";
             this.btnRemoveParis5ChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveParis5ChildTicket.TabIndex = 44;
@@ -550,16 +584,17 @@
             // 
             // lblNumberOfParis5ChildTicket
             // 
-            this.lblNumberOfParis5ChildTicket.AutoSize = true;
-            this.lblNumberOfParis5ChildTicket.Location = new System.Drawing.Point(600, 781);
+            this.lblNumberOfParis5ChildTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfParis5ChildTicket.Location = new System.Drawing.Point(751, 478);
             this.lblNumberOfParis5ChildTicket.Name = "lblNumberOfParis5ChildTicket";
-            this.lblNumberOfParis5ChildTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfParis5ChildTicket.Size = new System.Drawing.Size(169, 32);
             this.lblNumberOfParis5ChildTicket.TabIndex = 43;
             this.lblNumberOfParis5ChildTicket.Text = "0";
+            this.lblNumberOfParis5ChildTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddParisChildTicket
             // 
-            this.btnAddParisChildTicket.Location = new System.Drawing.Point(643, 771);
+            this.btnAddParisChildTicket.Location = new System.Drawing.Point(875, 478);
             this.btnAddParisChildTicket.Name = "btnAddParisChildTicket";
             this.btnAddParisChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnAddParisChildTicket.TabIndex = 42;
@@ -569,7 +604,7 @@
             // 
             // btnRemoveParis5AdultTicket
             // 
-            this.btnRemoveParis5AdultTicket.Location = new System.Drawing.Point(518, 683);
+            this.btnRemoveParis5AdultTicket.Location = new System.Drawing.Point(519, 478);
             this.btnRemoveParis5AdultTicket.Name = "btnRemoveParis5AdultTicket";
             this.btnRemoveParis5AdultTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveParis5AdultTicket.TabIndex = 41;
@@ -579,16 +614,17 @@
             // 
             // lblNumberOfParis5AdultTicket
             // 
-            this.lblNumberOfParis5AdultTicket.AutoSize = true;
-            this.lblNumberOfParis5AdultTicket.Location = new System.Drawing.Point(600, 693);
+            this.lblNumberOfParis5AdultTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfParis5AdultTicket.Location = new System.Drawing.Point(520, 478);
             this.lblNumberOfParis5AdultTicket.Name = "lblNumberOfParis5AdultTicket";
-            this.lblNumberOfParis5AdultTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfParis5AdultTicket.Size = new System.Drawing.Size(171, 32);
             this.lblNumberOfParis5AdultTicket.TabIndex = 40;
             this.lblNumberOfParis5AdultTicket.Text = "0";
+            this.lblNumberOfParis5AdultTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddParis5AdultTicket
             // 
-            this.btnAddParis5AdultTicket.Location = new System.Drawing.Point(643, 683);
+            this.btnAddParis5AdultTicket.Location = new System.Drawing.Point(644, 478);
             this.btnAddParis5AdultTicket.Name = "btnAddParis5AdultTicket";
             this.btnAddParis5AdultTicket.Size = new System.Drawing.Size(47, 32);
             this.btnAddParis5AdultTicket.TabIndex = 39;
@@ -596,29 +632,9 @@
             this.btnAddParis5AdultTicket.UseVisualStyleBackColor = true;
             this.btnAddParis5AdultTicket.Click += new System.EventHandler(this.btnAddParis5AdultTicket_Click);
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(586, 941);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(48, 17);
-            this.label10.TabIndex = 54;
-            this.label10.Text = "Enfant";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(586, 848);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(47, 17);
-            this.label11.TabIndex = 53;
-            this.label11.Text = "Adulte";
-            // 
             // btnRemoveAirportChildTicket
             // 
-            this.btnRemoveAirportChildTicket.Location = new System.Drawing.Point(519, 966);
+            this.btnRemoveAirportChildTicket.Location = new System.Drawing.Point(749, 570);
             this.btnRemoveAirportChildTicket.Name = "btnRemoveAirportChildTicket";
             this.btnRemoveAirportChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveAirportChildTicket.TabIndex = 52;
@@ -628,26 +644,27 @@
             // 
             // lblNumberOfAirportChildTicket
             // 
-            this.lblNumberOfAirportChildTicket.AutoSize = true;
-            this.lblNumberOfAirportChildTicket.Location = new System.Drawing.Point(601, 976);
+            this.lblNumberOfAirportChildTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfAirportChildTicket.Location = new System.Drawing.Point(749, 570);
             this.lblNumberOfAirportChildTicket.Name = "lblNumberOfAirportChildTicket";
-            this.lblNumberOfAirportChildTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfAirportChildTicket.Size = new System.Drawing.Size(171, 32);
             this.lblNumberOfAirportChildTicket.TabIndex = 51;
             this.lblNumberOfAirportChildTicket.Text = "0";
+            this.lblNumberOfAirportChildTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddAirportChildTicket
             // 
-            this.btnAddAirportChildTicket.Location = new System.Drawing.Point(644, 966);
+            this.btnAddAirportChildTicket.Location = new System.Drawing.Point(874, 570);
             this.btnAddAirportChildTicket.Name = "btnAddAirportChildTicket";
             this.btnAddAirportChildTicket.Size = new System.Drawing.Size(47, 32);
             this.btnAddAirportChildTicket.TabIndex = 50;
-            this.btnAddAirportChildTicket.Text = "+";
+            this.btnAddAirportChildTicket.Text = " +";
             this.btnAddAirportChildTicket.UseVisualStyleBackColor = true;
             this.btnAddAirportChildTicket.Click += new System.EventHandler(this.btnAddAirportChildTicket_Click);
             // 
             // btnRemoveAirportAdultTicket
             // 
-            this.btnRemoveAirportAdultTicket.Location = new System.Drawing.Point(519, 878);
+            this.btnRemoveAirportAdultTicket.Location = new System.Drawing.Point(519, 570);
             this.btnRemoveAirportAdultTicket.Name = "btnRemoveAirportAdultTicket";
             this.btnRemoveAirportAdultTicket.Size = new System.Drawing.Size(47, 32);
             this.btnRemoveAirportAdultTicket.TabIndex = 49;
@@ -657,16 +674,17 @@
             // 
             // lblNumberOfAirportAdultTicket
             // 
-            this.lblNumberOfAirportAdultTicket.AutoSize = true;
-            this.lblNumberOfAirportAdultTicket.Location = new System.Drawing.Point(601, 888);
+            this.lblNumberOfAirportAdultTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfAirportAdultTicket.Location = new System.Drawing.Point(520, 570);
             this.lblNumberOfAirportAdultTicket.Name = "lblNumberOfAirportAdultTicket";
-            this.lblNumberOfAirportAdultTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfAirportAdultTicket.Size = new System.Drawing.Size(171, 32);
             this.lblNumberOfAirportAdultTicket.TabIndex = 48;
             this.lblNumberOfAirportAdultTicket.Text = "0";
+            this.lblNumberOfAirportAdultTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddAirportAdultTicket
             // 
-            this.btnAddAirportAdultTicket.Location = new System.Drawing.Point(644, 878);
+            this.btnAddAirportAdultTicket.Location = new System.Drawing.Point(644, 570);
             this.btnAddAirportAdultTicket.Name = "btnAddAirportAdultTicket";
             this.btnAddAirportAdultTicket.Size = new System.Drawing.Size(47, 32);
             this.btnAddAirportAdultTicket.TabIndex = 47;
@@ -677,7 +695,7 @@
             // lblCurrentPriceInt
             // 
             this.lblCurrentPriceInt.AutoSize = true;
-            this.lblCurrentPriceInt.Location = new System.Drawing.Point(894, 998);
+            this.lblCurrentPriceInt.Location = new System.Drawing.Point(839, 643);
             this.lblCurrentPriceInt.Name = "lblCurrentPriceInt";
             this.lblCurrentPriceInt.Size = new System.Drawing.Size(13, 13);
             this.lblCurrentPriceInt.TabIndex = 56;
@@ -687,151 +705,78 @@
             // 
             this.lblCurrentPriceText.AutoSize = true;
             this.lblCurrentPriceText.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCurrentPriceText.Location = new System.Drawing.Point(781, 994);
+            this.lblCurrentPriceText.Location = new System.Drawing.Point(718, 639);
             this.lblCurrentPriceText.Name = "lblCurrentPriceText";
             this.lblCurrentPriceText.Size = new System.Drawing.Size(95, 20);
             this.lblCurrentPriceText.TabIndex = 55;
             this.lblCurrentPriceText.Text = "Total actuel :";
             // 
-            // label12
+            // btnPay
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(411, 33);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(45, 25);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "60e";
+            this.btnPay.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPay.Location = new System.Drawing.Point(722, 680);
+            this.btnPay.Name = "btnPay";
+            this.btnPay.Size = new System.Drawing.Size(200, 62);
+            this.btnPay.TabIndex = 57;
+            this.btnPay.Text = "Payer";
+            this.btnPay.UseVisualStyleBackColor = true;
             // 
-            // label13
+            // btnBuyNormal
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(411, 121);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(45, 25);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "55e";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(411, 34);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(45, 25);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "30e";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(411, 120);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(45, 25);
-            this.label15.TabIndex = 5;
-            this.label15.Text = "25e";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(411, 29);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 25);
-            this.label16.TabIndex = 6;
-            this.label16.Text = "10e";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(411, 112);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(34, 25);
-            this.label17.TabIndex = 7;
-            this.label17.Text = "5e";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(411, 126);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(45, 25);
-            this.label18.TabIndex = 8;
-            this.label18.Text = "10e";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(411, 40);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(45, 25);
-            this.label19.TabIndex = 9;
-            this.label19.Text = "15e";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(432, 116);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(45, 25);
-            this.label20.TabIndex = 10;
-            this.label20.Text = "10e";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(432, 32);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(45, 25);
-            this.label21.TabIndex = 11;
-            this.label21.Text = "20e";
+            this.btnBuyNormal.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuyNormal.Location = new System.Drawing.Point(27, 680);
+            this.btnBuyNormal.Name = "btnBuyNormal";
+            this.btnBuyNormal.Size = new System.Drawing.Size(235, 69);
+            this.btnBuyNormal.TabIndex = 58;
+            this.btnBuyNormal.Text = " Acheter un billet normal";
+            this.btnBuyNormal.UseVisualStyleBackColor = true;
+            this.btnBuyNormal.Click += new System.EventHandler(this.btnBuyNormal_Click);
             // 
             // SpecialTicketsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(947, 1061);
+            this.ClientSize = new System.Drawing.Size(950, 761);
+            this.Controls.Add(this.btnAddAirportAdultTicket);
+            this.Controls.Add(this.btnAddParis5AdultTicket);
+            this.Controls.Add(this.btnAddParis3AdultTicket);
+            this.Controls.Add(this.btnAddParis1Adult);
+            this.Controls.Add(this.btnAddAirportChildTicket);
+            this.Controls.Add(this.btnAddParisChildTicket);
+            this.Controls.Add(this.btnAddParis3ChildTicket);
+            this.Controls.Add(this.btnAddParis1ChildTicket);
+            this.Controls.Add(this.btnAddDisneyChildTicket);
+            this.Controls.Add(this.btnAddDisneyAdultTicket);
+            this.Controls.Add(this.btnBuyNormal);
+            this.Controls.Add(this.btnPay);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label21);
             this.Controls.Add(this.lblCurrentPriceInt);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.lblCurrentPriceText);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.btnRemoveAirportChildTicket);
             this.Controls.Add(this.lblNumberOfAirportChildTicket);
-            this.Controls.Add(this.btnAddAirportChildTicket);
             this.Controls.Add(this.btnRemoveAirportAdultTicket);
             this.Controls.Add(this.lblNumberOfAirportAdultTicket);
-            this.Controls.Add(this.btnAddAirportAdultTicket);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.btnRemoveParis5ChildTicket);
             this.Controls.Add(this.lblNumberOfParis5ChildTicket);
-            this.Controls.Add(this.btnAddParisChildTicket);
             this.Controls.Add(this.btnRemoveParis5AdultTicket);
             this.Controls.Add(this.lblNumberOfParis5AdultTicket);
-            this.Controls.Add(this.btnAddParis5AdultTicket);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.btnRemoveParis3ChildTicket);
             this.Controls.Add(this.lblNumberOfParis3ChildTicket);
-            this.Controls.Add(this.btnAddParis3ChildTicket);
             this.Controls.Add(this.btnRemoveParis3AdultTicket);
             this.Controls.Add(this.lblNumberOfParis3AdultTicket);
-            this.Controls.Add(this.btnAddParis3AdultTicket);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.btnRemoveParis1ChildTicket);
             this.Controls.Add(this.lblNumberOfParis1ChildTicket);
-            this.Controls.Add(this.btnAddParis1ChildTicket);
             this.Controls.Add(this.btnRemoveParis1AdultTicket);
             this.Controls.Add(this.lblNumberOfParis1AdultTicket);
-            this.Controls.Add(this.btnAddParis1Adult);
             this.Controls.Add(this.lblDisneyChild);
             this.Controls.Add(this.lblDisneyAdult);
             this.Controls.Add(this.panel4);
@@ -839,10 +784,8 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnRemoveDisneyChildTicket);
             this.Controls.Add(this.lblNumberOfDisneyChildTicket);
-            this.Controls.Add(this.btnAddDisneyChildTicket);
             this.Controls.Add(this.btnRemoveDisneyAdultTicket);
             this.Controls.Add(this.lblNumberOfDisneyAdultTicket);
-            this.Controls.Add(this.btnAddDisneyAdultTicket);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlDisneyTickets);
             this.Controls.Add(this.pnlLanguage);
@@ -894,32 +837,24 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblDisneyAdult;
         private System.Windows.Forms.Label lblDisneyChild;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnRemoveParis1ChildTicket;
         private System.Windows.Forms.Label lblNumberOfParis1ChildTicket;
         private System.Windows.Forms.Button btnAddParis1ChildTicket;
         private System.Windows.Forms.Button btnRemoveParis1AdultTicket;
         private System.Windows.Forms.Label lblNumberOfParis1AdultTicket;
         private System.Windows.Forms.Button btnAddParis1Adult;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnRemoveParis3ChildTicket;
         private System.Windows.Forms.Label lblNumberOfParis3ChildTicket;
         private System.Windows.Forms.Button btnAddParis3ChildTicket;
         private System.Windows.Forms.Button btnRemoveParis3AdultTicket;
         private System.Windows.Forms.Label lblNumberOfParis3AdultTicket;
         private System.Windows.Forms.Button btnAddParis3AdultTicket;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnRemoveParis5ChildTicket;
         private System.Windows.Forms.Label lblNumberOfParis5ChildTicket;
         private System.Windows.Forms.Button btnAddParisChildTicket;
         private System.Windows.Forms.Button btnRemoveParis5AdultTicket;
         private System.Windows.Forms.Label lblNumberOfParis5AdultTicket;
         private System.Windows.Forms.Button btnAddParis5AdultTicket;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnRemoveAirportChildTicket;
         private System.Windows.Forms.Label lblNumberOfAirportChildTicket;
         private System.Windows.Forms.Button btnAddAirportChildTicket;
@@ -938,5 +873,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button btnPay;
+        private System.Windows.Forms.Button btnBuyNormal;
     }
 }

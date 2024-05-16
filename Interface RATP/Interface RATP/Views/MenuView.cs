@@ -1,4 +1,5 @@
 ﻿using Interface_RATP.Controllers;
+using Interface_RATP.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -29,13 +30,10 @@ namespace Interface_RATP
 
 
         public RatpController Controller { get; set; }
-        NormalTicketsView normalTickets;
-        SpecialTicketsView specialTickets;
+       
         public MenuView()
         {
             InitializeComponent();
-            normalTickets = new NormalTicketsView(this,specialTickets);
-            specialTickets = new SpecialTicketsView(this);
         }
 
 
@@ -53,22 +51,20 @@ namespace Interface_RATP
 
         private void lblNormalTickets_Click(object sender, EventArgs e)
         {
-            NormalTicketsView normalTickets = new NormalTicketsView(this, specialTickets);
-            normalTickets.Show();
+
+            Controller.ShowNormalTickets();
             this.Hide();
         }
 
         private void lblSpecialTickets_Click(object sender, EventArgs e)
         {
-            SpecialTicketsView specialTickets = new SpecialTicketsView(this);
-            specialTickets.Show();
+
+            Controller.ShowSpecialTickets();
             this.Hide();
         }
         private void lblFrench_Click(object sender, EventArgs e)
         {
-            Language update = new Language();
-            _currentLanguage = Lang.FR;
-            update.UpdateLanguage();
+            Language.UpdateLanguage(Interface_RATP.Lang.FR);
             UpdateText();
 
 
@@ -76,34 +72,36 @@ namespace Interface_RATP
 
         private void lblEnglish_Click(object sender, EventArgs e)
         {
-            Language update = new Language();
-            _currentLanguage = Lang.EN;
-            _resource = update.UpdateLanguage();
+            Language.UpdateLanguage(Interface_RATP.Lang.EN);
             UpdateText();
         }
 
         private void lblSpanish_Click(object sender, EventArgs e)
         {
-            //_currentLanguage = Lang.SPA;
+            Language.UpdateLanguage(Interface_RATP.Lang.SPA);
+            UpdateText();
         }
 
         private void lblGerman_Click(object sender, EventArgs e)
         {
-
+            Language.UpdateLanguage(Interface_RATP.Lang.GER);
+            UpdateText();
         }
 
         private void lblItalian_Click(object sender, EventArgs e)
         {
-
+            Language.UpdateLanguage(Interface_RATP.Lang.ITA);
+            UpdateText();
         }
 
         private void UpdateText()
-        {
+        {   
+            ResourceManager rm = Language.Instance;
             foreach(Control c in this.Controls)
             {
-                if(_resource.GetString(c.Name) != null)
+                if(rm.GetString(c.Name) != null)
                 {
-                    c.Text = _resource.GetString(c.Name);
+                    c.Text = rm.GetString(c.Name);
                 }
                 
             }
