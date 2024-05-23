@@ -140,6 +140,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "PaymentView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ecran de paiement";
             this.Load += new System.EventHandler(this.PaymentView_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

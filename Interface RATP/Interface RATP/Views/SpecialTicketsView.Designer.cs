@@ -720,6 +720,7 @@
             this.btnPay.TabIndex = 57;
             this.btnPay.Text = "Payer";
             this.btnPay.UseVisualStyleBackColor = true;
+            this.btnPay.Click += new System.EventHandler(this.btnPay_Click);
             // 
             // btnBuyNormal
             // 

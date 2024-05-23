@@ -148,9 +148,9 @@
             this.lblAdult.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdult.Location = new System.Drawing.Point(194, 64);
             this.lblAdult.Name = "lblAdult";
-            this.lblAdult.Size = new System.Drawing.Size(120, 27);
+            this.lblAdult.Size = new System.Drawing.Size(81, 27);
             this.lblAdult.TabIndex = 0;
-            this.lblAdult.Text = "Adulte - 5€";
+            this.lblAdult.Text = "Adulte ";
             // 
             // panel1
             // 
@@ -165,11 +165,11 @@
             // 
             this.lblReduction.AutoSize = true;
             this.lblReduction.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReduction.Location = new System.Drawing.Point(156, 66);
+            this.lblReduction.Location = new System.Drawing.Point(194, 66);
             this.lblReduction.Name = "lblReduction";
-            this.lblReduction.Size = new System.Drawing.Size(158, 27);
+            this.lblReduction.Size = new System.Drawing.Size(113, 27);
             this.lblReduction.TabIndex = 1;
-            this.lblReduction.Text = "Prix réduit - 2€";
+            this.lblReduction.Text = "Prix réduit";
             this.lblReduction.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnBuySpecial
@@ -206,13 +206,13 @@
             // 
             // lblNumberOfAdultTicket
             // 
-            this.lblNumberOfAdultTicket.AutoSize = true;
-            this.lblNumberOfAdultTicket.Location = new System.Drawing.Point(767, 205);
+            this.lblNumberOfAdultTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfAdultTicket.Location = new System.Drawing.Point(685, 195);
             this.lblNumberOfAdultTicket.Name = "lblNumberOfAdultTicket";
-            this.lblNumberOfAdultTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfAdultTicket.Size = new System.Drawing.Size(172, 32);
             this.lblNumberOfAdultTicket.TabIndex = 8;
             this.lblNumberOfAdultTicket.Text = "0";
-            this.lblNumberOfAdultTicket.Click += new System.EventHandler(this.lblNumberOfAdultTicket_Click);
+            this.lblNumberOfAdultTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnRemoveAdultTicket
             // 
@@ -236,12 +236,13 @@
             // 
             // lblNumberOfReducedTicket
             // 
-            this.lblNumberOfReducedTicket.AutoSize = true;
-            this.lblNumberOfReducedTicket.Location = new System.Drawing.Point(767, 399);
+            this.lblNumberOfReducedTicket.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNumberOfReducedTicket.Location = new System.Drawing.Point(685, 389);
             this.lblNumberOfReducedTicket.Name = "lblNumberOfReducedTicket";
-            this.lblNumberOfReducedTicket.Size = new System.Drawing.Size(13, 13);
+            this.lblNumberOfReducedTicket.Size = new System.Drawing.Size(172, 32);
             this.lblNumberOfReducedTicket.TabIndex = 11;
             this.lblNumberOfReducedTicket.Text = "0";
+            this.lblNumberOfReducedTicket.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnAddReducedTicket
             // 
@@ -278,14 +279,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(947, 781);
+            this.Controls.Add(this.btnAddReducedTicket);
+            this.Controls.Add(this.btnAddAdultTicket);
             this.Controls.Add(this.lblCurrentPriceInt);
             this.Controls.Add(this.lblCurrentPriceText);
             this.Controls.Add(this.btnRemoveReducedTicket);
             this.Controls.Add(this.lblNumberOfReducedTicket);
-            this.Controls.Add(this.btnAddReducedTicket);
             this.Controls.Add(this.btnRemoveAdultTicket);
             this.Controls.Add(this.lblNumberOfAdultTicket);
-            this.Controls.Add(this.btnAddAdultTicket);
             this.Controls.Add(this.btnPay);
             this.Controls.Add(this.btnBuySpecial);
             this.Controls.Add(this.panel1);

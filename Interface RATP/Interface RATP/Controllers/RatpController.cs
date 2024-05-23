@@ -53,5 +53,20 @@ namespace Interface_RATP.Controllers
         {   
             _view4.Show();
         }
-    }   
+
+        public int GetAdultPrice()
+        {
+            return _model.AdultPrice;
+        }
+
+        public int GetReducedPrice()
+        {
+            return _model.ReducedPrice;
+        }
+
+        public int GetDisneyAdultPrice() 
+        {
+            return _model.DisneyAdultPrice;
+        }
+    }
 }

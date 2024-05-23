@@ -41,7 +41,8 @@ namespace Interface_RATP
             lblNumberOfAdultTicket.Text = currentValue.ToString();
 
             // Augmente le prix actuel de 5
-            currentPrice += 5;
+            int adultPrice = Controller .GetAdultPrice();
+            currentPrice += adultPrice;
             lblCurrentPriceInt.Text = currentPrice.ToString();
 
             Controller.TotalPrice = currentPrice;
@@ -134,11 +135,6 @@ namespace Interface_RATP
             Controller.ShowPayment();
             this.Hide();
             
-        }
-
-        private void lblNumberOfAdultTicket_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

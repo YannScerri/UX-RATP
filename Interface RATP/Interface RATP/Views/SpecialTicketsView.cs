@@ -301,5 +301,11 @@ namespace Interface_RATP
             Controller.ShowNormalTickets();
             this.Hide();
         }
+
+        private void btnPay_Click(object sender, EventArgs e)
+        {
+            Controller.ShowPayment();
+            this.Hide();
+        }
     }
 }
