@@ -73,6 +73,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SPA.resx</DependentUpon>
     </Compile>
+    <Compile Include="Views\GoodbyeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\GoodbyeView.Designer.cs">
+      <DependentUpon>GoodbyeView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\MenuView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     <EmbeddedResource Include="Ressources\SPA.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SPA.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GoodbyeView.resx">
+      <DependentUpon>GoodbyeView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\MenuView.resx">
       <DependentUpon>MenuView.cs</DependentUpon>

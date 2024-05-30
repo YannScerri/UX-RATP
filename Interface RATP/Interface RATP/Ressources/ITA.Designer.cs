@@ -61,11 +61,101 @@ namespace Interface_RATP.Ressources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à indietro.
+        /// </summary>
+        internal static string btnBack {
+            get {
+                return ResourceManager.GetString("btnBack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Adulto.
+        /// </summary>
+        internal static string lblAdult {
+            get {
+                return ResourceManager.GetString("lblAdult", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Aeroporto.
+        /// </summary>
+        internal static string lblAirport {
+            get {
+                return ResourceManager.GetString("lblAirport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Totale attuale.
+        /// </summary>
+        internal static string lblCurrentPriceText {
+            get {
+                return ResourceManager.GetString("lblCurrentPriceText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Adulto.
+        /// </summary>
+        internal static string lblDisneyAdult {
+            get {
+                return ResourceManager.GetString("lblDisneyAdult", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Bambino.
+        /// </summary>
+        internal static string lblDisneyChild {
+            get {
+                return ResourceManager.GetString("lblDisneyChild", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Billeti normali.
         /// </summary>
         internal static string lblNormalTickets {
             get {
                 return ResourceManager.GetString("lblNormalTickets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pass visitatori 1 giorno.
+        /// </summary>
+        internal static string lblParis1 {
+            get {
+                return ResourceManager.GetString("lblParis1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pass visitatori 3 giorno.
+        /// </summary>
+        internal static string lblParis3 {
+            get {
+                return ResourceManager.GetString("lblParis3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pass visitatori 5 giorno.
+        /// </summary>
+        internal static string lblParis5 {
+            get {
+                return ResourceManager.GetString("lblParis5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Prezzo ridotto.
+        /// </summary>
+        internal static string lblReduction {
+            get {
+                return ResourceManager.GetString("lblReduction", resourceCulture);
             }
         }
         
@@ -79,11 +169,74 @@ namespace Interface_RATP.Ressources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Thanks !.
+        /// </summary>
+        internal static string lblThanks {
+            get {
+                return ResourceManager.GetString("lblThanks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Biglietti.
+        /// </summary>
+        internal static string lblTickets {
+            get {
+                return ResourceManager.GetString("lblTickets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Totale.
+        /// </summary>
+        internal static string lblTotal {
+            get {
+                return ResourceManager.GetString("lblTotal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Benvenuto a RATP.
         /// </summary>
         internal static string lblWelcome {
             get {
                 return ResourceManager.GetString("lblWelcome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Biglietti normali.
+        /// </summary>
+        internal static string MessageBox1Caption {
+            get {
+                return ResourceManager.GetString("MessageBox1Caption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à I biglietti normali comprendono le seguenti opzioni: adulti e ridotto.
+        /// </summary>
+        internal static string MessageBox1Text {
+            get {
+                return ResourceManager.GetString("MessageBox1Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Biglietti speciali.
+        /// </summary>
+        internal static string MessageBox2Caption {
+            get {
+                return ResourceManager.GetString("MessageBox2Caption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à I biglietti speciali includono le seguenti opzioni: biglietto DisneyLand, pass 1-3-5 giorni e biglietto per l&apos;aeroporto (tutti disponibili a prezzo adulto o ridotto)..
+        /// </summary>
+        internal static string MessageBox2Text {
+            get {
+                return ResourceManager.GetString("MessageBox2Text", resourceCulture);
             }
         }
     }

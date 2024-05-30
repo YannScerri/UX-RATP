@@ -117,13 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnBack" xml:space="preserve">
+    <value>indietro</value>
+  </data>
+  <data name="lblAdult" xml:space="preserve">
+    <value>Adulto</value>
+  </data>
+  <data name="lblAirport" xml:space="preserve">
+    <value>Aeroporto</value>
+  </data>
+  <data name="lblCurrentPriceText" xml:space="preserve">
+    <value>Totale attuale</value>
+  </data>
+  <data name="lblDisneyAdult" xml:space="preserve">
+    <value>Adulto</value>
+  </data>
+  <data name="lblDisneyChild" xml:space="preserve">
+    <value>Bambino</value>
+  </data>
   <data name="lblNormalTickets" xml:space="preserve">
     <value>Billeti normali</value>
+  </data>
+  <data name="lblParis1" xml:space="preserve">
+    <value>Pass visitatori 1 giorno</value>
+  </data>
+  <data name="lblParis3" xml:space="preserve">
+    <value>Pass visitatori 3 giorno</value>
+  </data>
+  <data name="lblParis5" xml:space="preserve">
+    <value>Pass visitatori 5 giorno</value>
+  </data>
+  <data name="lblReduction" xml:space="preserve">
+    <value>Prezzo ridotto</value>
   </data>
   <data name="lblSpecialTickets" xml:space="preserve">
     <value>Billeti speciali</value>
   </data>
+  <data name="lblThanks" xml:space="preserve">
+    <value>Thanks !</value>
+  </data>
+  <data name="lblTickets" xml:space="preserve">
+    <value>Biglietti</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Totale</value>
+  </data>
   <data name="lblWelcome" xml:space="preserve">
     <value>Benvenuto a RATP</value>
+  </data>
+  <data name="MessageBox1Caption" xml:space="preserve">
+    <value>Biglietti normali</value>
+  </data>
+  <data name="MessageBox1Text" xml:space="preserve">
+    <value>I biglietti normali comprendono le seguenti opzioni: adulti e ridotto</value>
+  </data>
+  <data name="MessageBox2Caption" xml:space="preserve">
+    <value>Biglietti speciali</value>
+  </data>
+  <data name="MessageBox2Text" xml:space="preserve">
+    <value>I biglietti speciali includono le seguenti opzioni: biglietto DisneyLand, pass 1-3-5 giorni e biglietto per l'aeroporto (tutti disponibili a prezzo adulto o ridotto).</value>
   </data>
 </root>

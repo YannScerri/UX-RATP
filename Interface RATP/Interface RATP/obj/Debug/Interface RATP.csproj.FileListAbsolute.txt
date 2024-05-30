@@ -16,3 +16,23 @@ D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.
 D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.NormalTicketsView.resources
 D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.SpecialTicketsView.resources
 D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Views.PaymentView.resources
+D:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Views.GoodbyeView.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\bin\Debug\Interface RATP.exe.config
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\bin\Debug\Interface RATP.exe
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\bin\Debug\Interface RATP.pdb
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface RATP.csproj.AssemblyReference.cache
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Ressources.EN.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Ressources.FR.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Ressources.GER.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Ressources.ITA.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Ressources.SPA.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Views.GoodbyeView.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.MenuView.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.NormalTicketsView.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Views.PaymentView.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.SpecialTicketsView.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface_RATP.Properties.Resources.resources
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface RATP.csproj.GenerateResource.cache
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface RATP.csproj.CoreCompileInputs.cache
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface RATP.exe
+E:\Trimestre 4\Projet UX\Interface RATP\Interface RATP\obj\Debug\Interface RATP.pdb

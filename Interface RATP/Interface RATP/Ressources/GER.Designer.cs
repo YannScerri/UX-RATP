@@ -61,11 +61,101 @@ namespace Interface_RATP.Ressources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Zurück.
+        /// </summary>
+        internal static string btnBack {
+            get {
+                return ResourceManager.GetString("btnBack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Erwachsener.
+        /// </summary>
+        internal static string lblAdult {
+            get {
+                return ResourceManager.GetString("lblAdult", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Flughafen.
+        /// </summary>
+        internal static string lblAirport {
+            get {
+                return ResourceManager.GetString("lblAirport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à aktuelle Summe.
+        /// </summary>
+        internal static string lblCurrentPriceText {
+            get {
+                return ResourceManager.GetString("lblCurrentPriceText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Erwachsenser.
+        /// </summary>
+        internal static string lblDisneyAdult {
+            get {
+                return ResourceManager.GetString("lblDisneyAdult", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Kind.
+        /// </summary>
+        internal static string lblDisneyChild {
+            get {
+                return ResourceManager.GetString("lblDisneyChild", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Normale Tickets.
         /// </summary>
         internal static string lblNormalTickets {
             get {
                 return ResourceManager.GetString("lblNormalTickets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Besuchspass 1 Tag.
+        /// </summary>
+        internal static string lblParis1 {
+            get {
+                return ResourceManager.GetString("lblParis1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Besuchspass 3 Tage.
+        /// </summary>
+        internal static string lblParis3 {
+            get {
+                return ResourceManager.GetString("lblParis3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Besuchspass 5 Tage.
+        /// </summary>
+        internal static string lblParis5 {
+            get {
+                return ResourceManager.GetString("lblParis5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à reduzierter Preis.
+        /// </summary>
+        internal static string lblReduction {
+            get {
+                return ResourceManager.GetString("lblReduction", resourceCulture);
             }
         }
         
@@ -79,11 +169,56 @@ namespace Interface_RATP.Ressources {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Danke !.
+        /// </summary>
+        internal static string lblThanks {
+            get {
+                return ResourceManager.GetString("lblThanks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Tickets.
+        /// </summary>
+        internal static string lblTickets {
+            get {
+                return ResourceManager.GetString("lblTickets", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Gesamt.
+        /// </summary>
+        internal static string lblTotal {
+            get {
+                return ResourceManager.GetString("lblTotal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Wilkommen am RATP.
         /// </summary>
         internal static string lblWelcome {
             get {
                 return ResourceManager.GetString("lblWelcome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Normale Tickets.
+        /// </summary>
+        internal static string MessageBox1Caption {
+            get {
+                return ResourceManager.GetString("MessageBox1Caption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Normale Tickets beinhalten die Optionen: Erwachsener und ermäßigter Preis.
+        /// </summary>
+        internal static string MessageBox1Text {
+            get {
+                return ResourceManager.GetString("MessageBox1Text", resourceCulture);
             }
         }
     }

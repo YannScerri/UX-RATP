@@ -1,4 +1,8 @@
-﻿using Interface_RATP.Controllers;
+﻿///ETML
+///Auteur : Yann Scerri
+///Date : 30.05.2024
+///Description : Vue du menu principal
+using Interface_RATP.Controllers;
 using Interface_RATP.Views;
 using System;
 using System.Collections.Generic;
@@ -14,41 +18,48 @@ using System.Windows.Forms;
 namespace Interface_RATP
 {
     public partial class MenuView : Form
-    {
-        public enum Lang { FR, EN, SPA, GER, ITA }
-        public Lang _currentLanguage;
-        public ResourceManager _resource;
-
-
-
-        //string boxHelp1Text = "Les billets normaux comportent les options : Adulte et prix réduit";
-        //string boxHelp2Text = "Les billets spéciaux comportent les options : billet DisneyLand, Passe visite 1-3-5 jours et billet aéroport (tous ces billets sont disponibles au prix adulte ou réduit.";
-        //string boxHelp1Caption = "Billets normaux";
-        //string boxHelp2Caption = "Billets spéciaux";
-
-
-
-
-        public RatpController Controller { get; set; }
+    {   
+        public enum Lang { FR, EN, SPA, GER, ITA } //énumérateur des langues disponibles
+        private ResourceManager _resource; //variable privée pour accéder aux ressources
+        
+        public RatpController Controller { get; set; } //getter setter du Controller
        
+        /// <summary>
+        /// constructeur du Menu
+        /// </summary>
         public MenuView()
         {
             InitializeComponent();
+            UpdateText();
         }
 
 
-
+        /// <summary>
+        /// méthode pour afficher l'aide sur les billets normaux dans une messagebox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnNormalHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Les billets normaux comportent les options : Adulte et prix réduit", "Billets normaux.", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            MessageBox.Show(_resource.GetString("MessageBox1Text"), _resource.GetString("MessageBox1Caption"), MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
 
+        /// <summary>
+        /// méthode pour afficher l'aide sur les billets spéciaux dans une messagebox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSpecialHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Les billets spéciaux comportent les options : billet DisneyLand, Passe visite 1-3-5 jours et billet aéroport (tous ces billets sont disponibles au prix adulte ou réduit.", "Billets spéciaux", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            MessageBox.Show(_resource.GetString("MessageBox2Text"), _resource.GetString("MessageBox2Caption"), MessageBoxButtons.OK, MessageBoxIcon.Question);
 
         }
 
+        /// <summary>
+        /// permet d'accéder à l'écran pour acheter des billets normaux
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lblNormalTickets_Click(object sender, EventArgs e)
         {
 
@@ -56,52 +67,86 @@ namespace Interface_RATP
             this.Hide();
         }
 
+        /// <summary>
+        /// permet d'accéder à l'écran pour acheter des billets spéciaux
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lblSpecialTickets_Click(object sender, EventArgs e)
         {
 
             Controller.ShowSpecialTickets();
             this.Hide();
         }
+
+        /// <summary>
+        /// change la langue en français
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lblFrench_Click(object sender, EventArgs e)
         {
             Language.UpdateLanguage(Interface_RATP.Lang.FR);
-            UpdateText();
+            Controller.UpdateText();
 
 
         }
 
+        /// <summary>
+        /// change la langue en anglais
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lblEnglish_Click(object sender, EventArgs e)
         {
             Language.UpdateLanguage(Interface_RATP.Lang.EN);
-            UpdateText();
+            Controller.UpdateText();
         }
 
+        /// <summary>
+        /// change la langue en espagnol
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lblSpanish_Click(object sender, EventArgs e)
         {
             Language.UpdateLanguage(Interface_RATP.Lang.SPA);
-            UpdateText();
+            Controller.UpdateText();
         }
 
+        /// <summary>
+        /// change la langue en allemand
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lblGerman_Click(object sender, EventArgs e)
         {
             Language.UpdateLanguage(Interface_RATP.Lang.GER);
-            UpdateText();
+            Controller.UpdateText();
         }
 
+        /// <summary>
+        /// change la langue en italien
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lblItalian_Click(object sender, EventArgs e)
         {
             Language.UpdateLanguage(Interface_RATP.Lang.ITA);
-            UpdateText();
+            Controller.UpdateText();
         }
 
-        private void UpdateText()
+        /// <summary>
+        /// méthode pour mettre à jour les textes en cas de changement de langue
+        /// </summary>
+        public void UpdateText()
         {   
-            ResourceManager rm = Language.Instance;
+            _resource = Language.Instance;
             foreach(Control c in this.Controls)
             {
-                if(rm.GetString(c.Name) != null)
+                if(_resource.GetString(c.Name) != null)
                 {
-                    c.Text = rm.GetString(c.Name);
+                    c.Text = _resource.GetString(c.Name);
                 }
                 
             }

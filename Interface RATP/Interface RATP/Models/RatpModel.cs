@@ -1,4 +1,8 @@
-﻿using Interface_RATP.Controllers;
+﻿///ETML
+///Auteur : Yann Scerri
+///Date : 30.05.2024
+///Description : Classe Model du modèle MVC
+using Interface_RATP.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +13,9 @@ namespace Interface_RATP.Models
 {
     public class RatpModel
     {
-        public RatpController Controller { get; set; }
+        public RatpController Controller { get; set; } //getter setter du Controller
 
+        //constantes pour les tarifs des billets
         private const int ADULTPRICE = 5;
         private const int REDUCEDPRICE = 2;
 
@@ -27,6 +32,7 @@ namespace Interface_RATP.Models
         private const int AIRPORTADULTPRICE = 10;
         private const int AIRPORTREDUCEDPRICE = 5;
 
+        //getters des tarifs
         public int AdultPrice
         {
             get { return ADULTPRICE; }
@@ -62,12 +68,12 @@ namespace Interface_RATP.Models
             get { return PARIS3ADULTPRICE; }
         }
 
-        public int Paris3Reducedprice
+        public int Paris3ReducedPrice
         {
             get { return PARIS3REDUCEDPRICE;}
         }
 
-        public int Paris5Adult
+        public int Paris5AdultPrice
         {
             get { return PARIS5ADULTPRICE;}
         }

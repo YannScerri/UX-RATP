@@ -1,4 +1,8 @@
-﻿using System;
+﻿///ETML
+///Auteur : Yann Scerri
+///Date : 30.05.2024
+///Description : Classe Language permettant de gérer les informations concernant l'internationalisation
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Resources;

@@ -35,9 +35,7 @@
             this.lblGerman = new System.Windows.Forms.Label();
             this.lblEnglish = new System.Windows.Forms.Label();
             this.lblFrench = new System.Windows.Forms.Label();
-            this.pnlNormalTickets = new System.Windows.Forms.Panel();
             this.lblAdult = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.lblReduction = new System.Windows.Forms.Label();
             this.btnBuySpecial = new System.Windows.Forms.Button();
             this.btnPay = new System.Windows.Forms.Button();
@@ -49,9 +47,12 @@
             this.btnAddReducedTicket = new System.Windows.Forms.Button();
             this.lblCurrentPriceText = new System.Windows.Forms.Label();
             this.lblCurrentPriceInt = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.pnlLanguage.SuspendLayout();
-            this.pnlNormalTickets.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlLanguage
@@ -99,6 +100,7 @@
             this.lblItalian.Size = new System.Drawing.Size(85, 27);
             this.lblItalian.TabIndex = 3;
             this.lblItalian.Text = "Italiano";
+            this.lblItalian.Click += new System.EventHandler(this.lblItalian_Click);
             // 
             // lblGerman
             // 
@@ -133,41 +135,25 @@
             this.lblFrench.Text = "Français";
             this.lblFrench.Click += new System.EventHandler(this.lblFrench_Click);
             // 
-            // pnlNormalTickets
-            // 
-            this.pnlNormalTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlNormalTickets.Controls.Add(this.lblAdult);
-            this.pnlNormalTickets.Location = new System.Drawing.Point(1, 131);
-            this.pnlNormalTickets.Name = "pnlNormalTickets";
-            this.pnlNormalTickets.Size = new System.Drawing.Size(501, 150);
-            this.pnlNormalTickets.TabIndex = 3;
-            // 
             // lblAdult
             // 
             this.lblAdult.AutoSize = true;
-            this.lblAdult.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdult.Location = new System.Drawing.Point(194, 64);
+            this.lblAdult.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblAdult.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdult.Location = new System.Drawing.Point(195, 195);
             this.lblAdult.Name = "lblAdult";
-            this.lblAdult.Size = new System.Drawing.Size(81, 27);
+            this.lblAdult.Size = new System.Drawing.Size(84, 27);
             this.lblAdult.TabIndex = 0;
             this.lblAdult.Text = "Adulte ";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.lblReduction);
-            this.panel1.Location = new System.Drawing.Point(1, 328);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(501, 158);
-            this.panel1.TabIndex = 4;
             // 
             // lblReduction
             // 
             this.lblReduction.AutoSize = true;
-            this.lblReduction.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReduction.Location = new System.Drawing.Point(194, 66);
+            this.lblReduction.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblReduction.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReduction.Location = new System.Drawing.Point(195, 389);
             this.lblReduction.Name = "lblReduction";
-            this.lblReduction.Size = new System.Drawing.Size(113, 27);
+            this.lblReduction.Size = new System.Drawing.Size(118, 27);
             this.lblReduction.TabIndex = 1;
             this.lblReduction.Text = "Prix réduit";
             this.lblReduction.Click += new System.EventHandler(this.label1_Click);
@@ -258,7 +244,7 @@
             // 
             this.lblCurrentPriceText.AutoSize = true;
             this.lblCurrentPriceText.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCurrentPriceText.Location = new System.Drawing.Point(694, 585);
+            this.lblCurrentPriceText.Location = new System.Drawing.Point(681, 589);
             this.lblCurrentPriceText.Name = "lblCurrentPriceText";
             this.lblCurrentPriceText.Size = new System.Drawing.Size(95, 20);
             this.lblCurrentPriceText.TabIndex = 13;
@@ -267,11 +253,58 @@
             // lblCurrentPriceInt
             // 
             this.lblCurrentPriceInt.AutoSize = true;
-            this.lblCurrentPriceInt.Location = new System.Drawing.Point(807, 589);
+            this.lblCurrentPriceInt.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentPriceInt.Location = new System.Drawing.Point(795, 589);
             this.lblCurrentPriceInt.Name = "lblCurrentPriceInt";
-            this.lblCurrentPriceInt.Size = new System.Drawing.Size(13, 13);
+            this.lblCurrentPriceInt.Size = new System.Drawing.Size(19, 21);
             this.lblCurrentPriceInt.TabIndex = 14;
             this.lblCurrentPriceInt.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(826, 589);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(19, 21);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "€";
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label2.Location = new System.Drawing.Point(1, 131);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(501, 150);
+            this.label2.TabIndex = 16;
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label3.Location = new System.Drawing.Point(1, 328);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(501, 150);
+            this.label3.TabIndex = 17;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(757, 145);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(35, 25);
+            this.label21.TabIndex = 18;
+            this.label21.Text = "5€";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(757, 346);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 25);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "2€";
             // 
             // NormalTicketsView
             // 
@@ -279,6 +312,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(947, 781);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.lblReduction);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblAdult);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAddReducedTicket);
             this.Controls.Add(this.btnAddAdultTicket);
             this.Controls.Add(this.lblCurrentPriceInt);
@@ -289,8 +329,6 @@
             this.Controls.Add(this.lblNumberOfAdultTicket);
             this.Controls.Add(this.btnPay);
             this.Controls.Add(this.btnBuySpecial);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pnlNormalTickets);
             this.Controls.Add(this.pnlLanguage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "NormalTicketsView";
@@ -298,10 +336,6 @@
             this.Text = "Billets normaux";
             this.pnlLanguage.ResumeLayout(false);
             this.pnlLanguage.PerformLayout();
-            this.pnlNormalTickets.ResumeLayout(false);
-            this.pnlNormalTickets.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,9 +350,7 @@
         private System.Windows.Forms.Label lblEnglish;
         private System.Windows.Forms.Label lblFrench;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.Panel pnlNormalTickets;
         private System.Windows.Forms.Label lblAdult;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblReduction;
         private System.Windows.Forms.Button btnBuySpecial;
         private System.Windows.Forms.Button btnPay;
@@ -330,5 +362,10 @@
         private System.Windows.Forms.Button btnAddReducedTicket;
         private System.Windows.Forms.Label lblCurrentPriceText;
         private System.Windows.Forms.Label lblCurrentPriceInt;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label4;
     }
 }

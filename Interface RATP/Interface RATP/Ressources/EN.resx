@@ -117,13 +117,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btnBuyNormal" xml:space="preserve">
+    <value>Buy a normal ticket</value>
+  </data>
+  <data name="btnBuySpecial" xml:space="preserve">
+    <value>Buy a special ticket</value>
+  </data>
+  <data name="btnPay" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="lblAdult" xml:space="preserve">
+    <value>Adult</value>
+  </data>
+  <data name="lblAirport" xml:space="preserve">
+    <value>Airport</value>
+  </data>
+  <data name="lblCurrentPriceText" xml:space="preserve">
+    <value>Current Total</value>
+  </data>
+  <data name="lblDisneyAdult" xml:space="preserve">
+    <value>Adult</value>
+  </data>
+  <data name="lblDisneyChild" xml:space="preserve">
+    <value>Child</value>
+  </data>
   <data name="lblNormalTickets" xml:space="preserve">
     <value>Normal Tickets</value>
+  </data>
+  <data name="lblParis1" xml:space="preserve">
+    <value>Visit pass 1 day</value>
+  </data>
+  <data name="lblParis3" xml:space="preserve">
+    <value>Visit pass 3 days</value>
+  </data>
+  <data name="lblParis5" xml:space="preserve">
+    <value>Visit pass 5 days</value>
+  </data>
+  <data name="lblReduction" xml:space="preserve">
+    <value>Reduced Price</value>
   </data>
   <data name="lblSpecialTickets" xml:space="preserve">
     <value>Special Tickets</value>
   </data>
+  <data name="lblThanks" xml:space="preserve">
+    <value>Thanks !</value>
+  </data>
+  <data name="lblTickets" xml:space="preserve">
+    <value>Tickets</value>
+  </data>
+  <data name="lblTotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
   <data name="lblWelcome" xml:space="preserve">
     <value>Welcome to the RATP</value>
+  </data>
+  <data name="MessageBox1Caption" xml:space="preserve">
+    <value>Normal Tickets</value>
+  </data>
+  <data name="MessageBox1Text" xml:space="preserve">
+    <value>Normal tickers include the options : adult and reduced </value>
+  </data>
+  <data name="MessageBox2Caption" xml:space="preserve">
+    <value>Special Tickets</value>
+  </data>
+  <data name="MessageBox2Text" xml:space="preserve">
+    <value>Special tickets include the following options: DisneyLand ticket, 1-3-5 day pass and airport ticket (all available at adult or reduced price).</value>
   </data>
 </root>

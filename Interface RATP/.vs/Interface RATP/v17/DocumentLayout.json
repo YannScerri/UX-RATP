@@ -3,60 +3,40 @@
   "WorkspaceRootPath": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\views\\specialticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\specialticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\views\\specialticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\specialticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\views\\normalticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\normalticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\controllers\\ratpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\controllers\\ratpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\controllers\\ratpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\views\\normalticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\normalticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\views\\paymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\paymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\views\\paymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\paymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\menuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|d:\\trimestre 4\\projet ux\\interface ratp\\interface ratp\\models\\ratpmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\models\\ratpmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\views\\normalticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\normalticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\views\\specialticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\specialticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\views\\specialticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\specialticketsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\ressources\\en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\ressources\\en.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\views\\paymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\paymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\ressources\\fr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\ressources\\fr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\ressources\\ger.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\ressources\\ger.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|D:\\Trimestre 4\\Projet UX\\Interface RATP\\interface ratp\\views\\paymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB54433A-6226-47F9-8745-BD008B452E61}|Interface RATP\\Interface RATP.csproj|solutionrelative:interface ratp\\views\\paymentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,181 +46,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Language.cs",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Language.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Language.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Language.cs",
-              "RelativeToolTip": "Interface RATP\\Language.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:54:18.137Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EN.resx",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Ressources\\EN.resx",
-              "RelativeDocumentMoniker": "Interface RATP\\Ressources\\EN.resx",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Ressources\\EN.resx",
-              "RelativeToolTip": "Interface RATP\\Ressources\\EN.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-16T13:54:45.731Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuView.cs",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\MenuView.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Views\\MenuView.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\MenuView.cs",
-              "RelativeToolTip": "Interface RATP\\Views\\MenuView.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAYwGcAAAAvAAAA",
+              "Title": "SpecialTicketsView.cs",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\SpecialTicketsView.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Views\\SpecialTicketsView.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\SpecialTicketsView.cs",
+              "RelativeToolTip": "Interface RATP\\Views\\SpecialTicketsView.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAUwDcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T14:21:16.272Z",
+              "WhenOpened": "2024-05-30T14:10:35.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "SpecialTicketsView.cs [Design]",
               "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\SpecialTicketsView.cs",
               "RelativeDocumentMoniker": "Interface RATP\\Views\\SpecialTicketsView.cs",
               "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\SpecialTicketsView.cs [Design]",
               "RelativeToolTip": "Interface RATP\\Views\\SpecialTicketsView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:14:40.505Z",
+              "WhenOpened": "2024-05-30T14:10:32.3Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NormalTicketsView.cs",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\NormalTicketsView.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Views\\NormalTicketsView.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\NormalTicketsView.cs",
-              "RelativeToolTip": "Interface RATP\\Views\\NormalTicketsView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:43:10.077Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RatpModel.cs",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Models\\RatpModel.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Models\\RatpModel.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Models\\RatpModel.cs",
-              "RelativeToolTip": "Interface RATP\\Models\\RatpModel.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABAAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T11:34:36.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RatpController.cs",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Controllers\\RatpController.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Controllers\\RatpController.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Controllers\\RatpController.cs",
-              "RelativeToolTip": "Interface RATP\\Controllers\\RatpController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:24:26.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuView.cs [Design]",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\MenuView.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Views\\MenuView.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\MenuView.cs [Design]",
-              "RelativeToolTip": "Interface RATP\\Views\\MenuView.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:54:09.77Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NormalTicketsView.cs [Design]",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\NormalTicketsView.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Views\\NormalTicketsView.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\NormalTicketsView.cs [Design]",
-              "RelativeToolTip": "Interface RATP\\Views\\NormalTicketsView.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T12:38:15.468Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SpecialTicketsView.cs",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\SpecialTicketsView.cs",
-              "RelativeDocumentMoniker": "Interface RATP\\Views\\SpecialTicketsView.cs",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\SpecialTicketsView.cs",
-              "RelativeToolTip": "Interface RATP\\Views\\SpecialTicketsView.cs",
-              "ViewState": "AQIAABABAAAAAAAAAAAUwDMBAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T12:08:24.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "PaymentView.cs [Design]",
               "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\PaymentView.cs",
               "RelativeDocumentMoniker": "Interface RATP\\Views\\PaymentView.cs",
               "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\PaymentView.cs [Design]",
               "RelativeToolTip": "Interface RATP\\Views\\PaymentView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:23:41.383Z",
+              "WhenOpened": "2024-05-30T13:50:01.536Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FR.resx",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Ressources\\FR.resx",
-              "RelativeDocumentMoniker": "Interface RATP\\Ressources\\FR.resx",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Ressources\\FR.resx",
-              "RelativeToolTip": "Interface RATP\\Ressources\\FR.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-16T14:07:42.761Z"
+              "DocumentIndex": 4,
+              "Title": "NormalTicketsView.cs [Design]",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\NormalTicketsView.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Views\\NormalTicketsView.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\NormalTicketsView.cs [Design]",
+              "RelativeToolTip": "Interface RATP\\Views\\NormalTicketsView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:49:58.627Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GER.resx",
-              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Ressources\\GER.resx",
-              "RelativeDocumentMoniker": "Interface RATP\\Ressources\\GER.resx",
-              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Ressources\\GER.resx",
-              "RelativeToolTip": "Interface RATP\\Ressources\\GER.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-16T14:11:40.707Z"
+              "DocumentIndex": 3,
+              "Title": "RatpController.cs",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Controllers\\RatpController.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Controllers\\RatpController.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Controllers\\RatpController.cs",
+              "RelativeToolTip": "Interface RATP\\Controllers\\RatpController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAA4wD4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:49:42.151Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
+              "Title": "NormalTicketsView.cs",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\NormalTicketsView.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Views\\NormalTicketsView.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\NormalTicketsView.cs",
+              "RelativeToolTip": "Interface RATP\\Views\\NormalTicketsView.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAewDIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T11:43:10.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PaymentView.cs",
               "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\PaymentView.cs",
               "RelativeDocumentMoniker": "Interface RATP\\Views\\PaymentView.cs",
               "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\PaymentView.cs",
               "RelativeToolTip": "Interface RATP\\Views\\PaymentView.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBIAAAAJAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAwwBwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:27:02.612Z",
+              "WhenOpened": "2024-05-30T14:03:46.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MenuView.cs [Design]",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\MenuView.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Views\\MenuView.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Views\\MenuView.cs [Design]",
+              "RelativeToolTip": "Interface RATP\\Views\\MenuView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:03:24.219Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RatpModel.cs",
+              "DocumentMoniker": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Models\\RatpModel.cs",
+              "RelativeDocumentMoniker": "Interface RATP\\Models\\RatpModel.cs",
+              "ToolTip": "D:\\Trimestre 4\\Projet UX\\Interface RATP\\Interface RATP\\Models\\RatpModel.cs",
+              "RelativeToolTip": "Interface RATP\\Models\\RatpModel.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAmwFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:02:50.789Z",
               "EditorCaption": ""
             }
           ]

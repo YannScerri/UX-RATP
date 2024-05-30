@@ -41,24 +41,18 @@
             this.btnRemoveDisneyAdultTicket = new System.Windows.Forms.Button();
             this.lblNumberOfDisneyAdultTicket = new System.Windows.Forms.Label();
             this.btnAddDisneyAdultTicket = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lblReduction = new System.Windows.Forms.Label();
+            this.lblParis1 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.pnlDisneyTickets = new System.Windows.Forms.Panel();
-            this.lblAdult = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblParis3 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.lblParis5 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblAirport = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.lblDisneyAdult = new System.Windows.Forms.Label();
@@ -91,12 +85,14 @@
             this.lblCurrentPriceText = new System.Windows.Forms.Label();
             this.btnPay = new System.Windows.Forms.Button();
             this.btnBuyNormal = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblDisney = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.pnlLanguage.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.pnlDisneyTickets.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlLanguage
@@ -133,6 +129,7 @@
             this.lblSpanish.Size = new System.Drawing.Size(90, 27);
             this.lblSpanish.TabIndex = 4;
             this.lblSpanish.Text = "Español";
+            this.lblSpanish.Click += new System.EventHandler(this.lblSpanish_Click);
             // 
             // lblItalian
             // 
@@ -143,6 +140,7 @@
             this.lblItalian.Size = new System.Drawing.Size(85, 27);
             this.lblItalian.TabIndex = 3;
             this.lblItalian.Text = "Italiano";
+            this.lblItalian.Click += new System.EventHandler(this.lblItalian_Click);
             // 
             // lblGerman
             // 
@@ -153,6 +151,7 @@
             this.lblGerman.Size = new System.Drawing.Size(93, 27);
             this.lblGerman.TabIndex = 2;
             this.lblGerman.Text = "Deutsch";
+            this.lblGerman.Click += new System.EventHandler(this.lblGerman_Click);
             // 
             // lblEnglish
             // 
@@ -163,6 +162,7 @@
             this.lblEnglish.Size = new System.Drawing.Size(84, 27);
             this.lblEnglish.TabIndex = 1;
             this.lblEnglish.Text = "English\r\n";
+            this.lblEnglish.Click += new System.EventHandler(this.lblEnglish_Click);
             // 
             // lblFrench
             // 
@@ -173,6 +173,7 @@
             this.lblFrench.Size = new System.Drawing.Size(96, 27);
             this.lblFrench.TabIndex = 0;
             this.lblFrench.Text = "Français";
+            this.lblFrench.Click += new System.EventHandler(this.lblFrench_Click);
             // 
             // btnRemoveDisneyChildTicket
             // 
@@ -236,24 +237,16 @@
             this.btnAddDisneyAdultTicket.UseVisualStyleBackColor = true;
             this.btnAddDisneyAdultTicket.Click += new System.EventHandler(this.btnAddDisneyAdultTicket_Click);
             // 
-            // panel1
+            // lblParis1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.lblReduction);
-            this.panel1.Location = new System.Drawing.Point(1, 233);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(500, 90);
-            this.panel1.TabIndex = 14;
-            // 
-            // lblReduction
-            // 
-            this.lblReduction.AutoSize = true;
-            this.lblReduction.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblReduction.Location = new System.Drawing.Point(156, 38);
-            this.lblReduction.Name = "lblReduction";
-            this.lblReduction.Size = new System.Drawing.Size(192, 27);
-            this.lblReduction.TabIndex = 1;
-            this.lblReduction.Text = "Passe visite 1 jour";
+            this.lblParis1.AutoSize = true;
+            this.lblParis1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblParis1.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblParis1.Location = new System.Drawing.Point(162, 271);
+            this.lblParis1.Name = "lblParis1";
+            this.lblParis1.Size = new System.Drawing.Size(197, 27);
+            this.lblParis1.TabIndex = 1;
+            this.lblParis1.Text = "Passe visite 1 jour";
             // 
             // label19
             // 
@@ -276,25 +269,6 @@
             this.label18.TabIndex = 8;
             this.label18.Text = "10€";
             // 
-            // pnlDisneyTickets
-            // 
-            this.pnlDisneyTickets.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pnlDisneyTickets.Controls.Add(this.lblAdult);
-            this.pnlDisneyTickets.Location = new System.Drawing.Point(1, 128);
-            this.pnlDisneyTickets.Name = "pnlDisneyTickets";
-            this.pnlDisneyTickets.Size = new System.Drawing.Size(500, 90);
-            this.pnlDisneyTickets.TabIndex = 13;
-            // 
-            // lblAdult
-            // 
-            this.lblAdult.AutoSize = true;
-            this.lblAdult.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdult.Location = new System.Drawing.Point(194, 35);
-            this.lblAdult.Name = "lblAdult";
-            this.lblAdult.Size = new System.Drawing.Size(121, 27);
-            this.lblAdult.TabIndex = 0;
-            this.lblAdult.Text = "Disneyland";
-            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -315,24 +289,16 @@
             this.label21.TabIndex = 11;
             this.label21.Text = "20€";
             // 
-            // panel2
+            // lblParis3
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(2, 338);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(500, 90);
-            this.panel2.TabIndex = 15;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(155, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 27);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Passe visite 3 jours";
+            this.lblParis3.AutoSize = true;
+            this.lblParis3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblParis3.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblParis3.Location = new System.Drawing.Point(162, 372);
+            this.lblParis3.Name = "lblParis3";
+            this.lblParis3.Size = new System.Drawing.Size(208, 27);
+            this.lblParis3.TabIndex = 1;
+            this.lblParis3.Text = "Passe visite 3 jours";
             // 
             // label15
             // 
@@ -354,24 +320,16 @@
             this.label14.TabIndex = 4;
             this.label14.Text = "30€";
             // 
-            // label2
+            // lblParis5
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(145, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(203, 27);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Passe visite 5 jours";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(2, 443);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(500, 90);
-            this.panel3.TabIndex = 16;
+            this.lblParis5.AutoSize = true;
+            this.lblParis5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblParis5.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblParis5.Location = new System.Drawing.Point(162, 478);
+            this.lblParis5.Name = "lblParis5";
+            this.lblParis5.Size = new System.Drawing.Size(208, 27);
+            this.lblParis5.TabIndex = 1;
+            this.lblParis5.Text = "Passe visite 5 jours";
             // 
             // label13
             // 
@@ -393,24 +351,16 @@
             this.label12.TabIndex = 2;
             this.label12.Text = "60€";
             // 
-            // panel4
+            // lblAirport
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(1, 548);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(500, 90);
-            this.panel4.TabIndex = 17;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(206, 32);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 27);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Aéroport";
+            this.lblAirport.AutoSize = true;
+            this.lblAirport.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblAirport.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAirport.Location = new System.Drawing.Point(197, 575);
+            this.lblAirport.Name = "lblAirport";
+            this.lblAirport.Size = new System.Drawing.Size(99, 27);
+            this.lblAirport.TabIndex = 1;
+            this.lblAirport.Text = "Aéroport";
             // 
             // label17
             // 
@@ -695,9 +645,10 @@
             // lblCurrentPriceInt
             // 
             this.lblCurrentPriceInt.AutoSize = true;
-            this.lblCurrentPriceInt.Location = new System.Drawing.Point(839, 643);
+            this.lblCurrentPriceInt.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentPriceInt.Location = new System.Drawing.Point(818, 643);
             this.lblCurrentPriceInt.Name = "lblCurrentPriceInt";
-            this.lblCurrentPriceInt.Size = new System.Drawing.Size(13, 13);
+            this.lblCurrentPriceInt.Size = new System.Drawing.Size(23, 25);
             this.lblCurrentPriceInt.TabIndex = 56;
             this.lblCurrentPriceInt.Text = "0";
             // 
@@ -705,7 +656,7 @@
             // 
             this.lblCurrentPriceText.AutoSize = true;
             this.lblCurrentPriceText.Font = new System.Drawing.Font("Yu Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCurrentPriceText.Location = new System.Drawing.Point(718, 639);
+            this.lblCurrentPriceText.Location = new System.Drawing.Point(702, 647);
             this.lblCurrentPriceText.Name = "lblCurrentPriceText";
             this.lblCurrentPriceText.Size = new System.Drawing.Size(95, 20);
             this.lblCurrentPriceText.TabIndex = 55;
@@ -733,11 +684,79 @@
             this.btnBuyNormal.UseVisualStyleBackColor = true;
             this.btnBuyNormal.Click += new System.EventHandler(this.btnBuyNormal_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(867, 643);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(23, 25);
+            this.label4.TabIndex = 59;
+            this.label4.Text = "€";
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label5.Location = new System.Drawing.Point(1, 128);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(500, 90);
+            this.label5.TabIndex = 60;
+            // 
+            // lblDisney
+            // 
+            this.lblDisney.AutoSize = true;
+            this.lblDisney.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblDisney.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDisney.Location = new System.Drawing.Point(197, 158);
+            this.lblDisney.Name = "lblDisney";
+            this.lblDisney.Size = new System.Drawing.Size(125, 27);
+            this.lblDisney.TabIndex = 0;
+            this.lblDisney.Text = "Disneyland";
+            // 
+            // label6
+            // 
+            this.label6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label6.Location = new System.Drawing.Point(1, 238);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(500, 90);
+            this.label6.TabIndex = 61;
+            // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label7.Location = new System.Drawing.Point(2, 338);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(500, 90);
+            this.label7.TabIndex = 62;
+            // 
+            // label8
+            // 
+            this.label8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label8.Location = new System.Drawing.Point(1, 443);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(500, 90);
+            this.label8.TabIndex = 63;
+            // 
+            // label9
+            // 
+            this.label9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label9.Location = new System.Drawing.Point(2, 550);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(500, 90);
+            this.label9.TabIndex = 64;
+            // 
             // SpecialTicketsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(950, 761);
+            this.Controls.Add(this.lblAirport);
+            this.Controls.Add(this.lblParis5);
+            this.Controls.Add(this.lblParis3);
+            this.Controls.Add(this.lblParis1);
+            this.Controls.Add(this.lblDisney);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnAddAirportAdultTicket);
             this.Controls.Add(this.btnAddParis5AdultTicket);
             this.Controls.Add(this.btnAddParis3AdultTicket);
@@ -780,32 +799,21 @@
             this.Controls.Add(this.lblNumberOfParis1AdultTicket);
             this.Controls.Add(this.lblDisneyChild);
             this.Controls.Add(this.lblDisneyAdult);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnRemoveDisneyChildTicket);
             this.Controls.Add(this.lblNumberOfDisneyChildTicket);
             this.Controls.Add(this.btnRemoveDisneyAdultTicket);
             this.Controls.Add(this.lblNumberOfDisneyAdultTicket);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pnlDisneyTickets);
             this.Controls.Add(this.pnlLanguage);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label9);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "SpecialTicketsView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Billets spéciaux";
             this.pnlLanguage.ResumeLayout(false);
             this.pnlLanguage.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.pnlDisneyTickets.ResumeLayout(false);
-            this.pnlDisneyTickets.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -826,16 +834,10 @@
         private System.Windows.Forms.Button btnRemoveDisneyAdultTicket;
         private System.Windows.Forms.Label lblNumberOfDisneyAdultTicket;
         private System.Windows.Forms.Button btnAddDisneyAdultTicket;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblReduction;
-        private System.Windows.Forms.Panel pnlDisneyTickets;
-        private System.Windows.Forms.Label lblAdult;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblParis1;
+        private System.Windows.Forms.Label lblParis3;
+        private System.Windows.Forms.Label lblParis5;
+        private System.Windows.Forms.Label lblAirport;
         private System.Windows.Forms.Label lblDisneyAdult;
         private System.Windows.Forms.Label lblDisneyChild;
         private System.Windows.Forms.Button btnRemoveParis1ChildTicket;
@@ -876,5 +878,12 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnPay;
         private System.Windows.Forms.Button btnBuyNormal;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblDisney;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
     }
 }

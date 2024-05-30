@@ -1,4 +1,8 @@
-﻿using Interface_RATP.Controllers;
+﻿///ETML
+///Auteur : Yann Scerri
+///Date : 30.05.2024
+///Description : Classe Program contenant le bootstrap
+using Interface_RATP.Controllers;
 using Interface_RATP.Models;
 using Interface_RATP.Views;
 
@@ -28,11 +32,12 @@ namespace Interface_RATP
             NormalTicketsView view2 = new NormalTicketsView();
             SpecialTicketsView view3 = new SpecialTicketsView();  
             PaymentView view4 = new PaymentView(view2);
+            GoodbyeView view5 = new GoodbyeView();
 
             //création du modèle
             RatpModel model = new RatpModel();
             //création du contrôleur
-            RatpController controller = new RatpController(view1,view2,view3,view4, model);
+            RatpController controller = new RatpController(view1,view2,view3,view4,view5, model);
 
             Application.Run(view1);
 
